@@ -6,26 +6,27 @@ This repository contains my solutions to various LeetCode problems. The problems
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 0001 | 🟢 [Two Sum](#two-sum)  | Easy | [➔](easy/0001.java) |
-| 0009 | 🟢 [Palindrome Number](#palindrome-number)  | Easy | [➔](easy/0009.java) |
-| 0013 | 🟢 [Roman to Integer](#roman-to-integer)  | Easy | [➔](easy/0013.java) |
-| 0014 | 🟢 [Longest Common Prefix](#longest-common-prefix)  | Easy | [➔](easy/0014.java) |
-| 0020 | 🟢 [Valid Parentheses](#valid-parentheses)  | Easy | [➔](easy/0020.java) |
-| 0028 | 🟢 [Find the Index of the First Occurrence in a String](#find-the-index-of-the-first-occurrence-in-a-string)  | Easy | [➔](easy/0028.java) |
-| 0066 | 🟢 [Plus One](#plus-one)  | Easy | [➔](easy/0066.java) |
-| 0242 | 🟢 [Valid Anagram](#valid-anagram)  | Easy | [➔](easy/0242.java) |
-| 0283 | 🟢 [Move Zeroes](#move-zeroes)  | Easy | [➔](easy/0283.java) |
-| 0383 | 🟢 [Ransom Note](#ransom-note)  | Easy | [➔](easy/0383.java) |
-| 0389 | 🟢 [Find the Difference](#find-the-difference)  | Easy | [➔](easy/0389.java) |
-| 0412 | 🟢 [Fizz Buzz](#fizz-buzz)  | Easy | [➔](easy/0412.java) |
-| 0459 | 🟢 [Repeated Substring Pattern](#repeated-substring-pattern)  | Easy | [➔](easy/0459.java) |
-| 0896 | 🟢 [Monotonic Array](#monotonic-array) | Easy | [➔](easy/0896.java) |
-| 1342 | 🟢 [Number of Steps to Reduce a Number to Zero](#number-of-steps-to-reduce-a-number-to-zero) | Easy | [➔](easy/1342.java) |
-| 1480 | 🟢 [Running Sum of 1d Array](#running-sum-of-1d-array) | Easy | [➔](easy/1480.java) |
-| 1502 | 🟢 [Can Make Arithmetic Progression From Sequence](#can-make-arithmetic-progression-from-sequence) | Easy | [➔](easy/1502.java) |
-| 1672 | 🟢 [Richest Customer Wealth](#richest-customer-wealth) | Easy | [➔](easy/1672.java) |
-| 1768 | 🟢 [Merge Strings Alternately](#merge-strings-alternately) | Easy | [➔](easy/1768.java) |
-| 1822 | 🟢 [Sign of the Product of an Array](#sign-of-the-product-of-an-array) | Easy | [➔](easy/1822.java) |
+| 0001 | 🟢 [Two Sum](#two-sum)  | Easy | [➔](Easy/0001.java) |
+| 0009 | 🟢 [Palindrome Number](#palindrome-number)  | Easy | [➔](Easy/0009.java) |
+| 0013 | 🟢 [Roman to Integer](#roman-to-integer)  | Easy | [➔](Easy/0013.java) |
+| 0014 | 🟢 [Longest Common Prefix](#longest-common-prefix)  | Easy | [➔](Easy/0014.java) |
+| 0020 | 🟢 [Valid Parentheses](#valid-parentheses)  | Easy | [➔](Easy/0020.java) |
+| 0028 | 🟢 [Find the Index of the First Occurrence in a String](#find-the-index-of-the-first-occurrence-in-a-string)  | Easy | [➔](Easy/0028.java) |
+| 0066 | 🟢 [Plus One](#plus-one)  | Easy | [➔](Easy/0066.java) |
+| 0242 | 🟢 [Valid Anagram](#valid-anagram)  | Easy | [➔](Easy/0242.java) |
+| 0283 | 🟢 [Move Zeroes](#move-zeroes)  | Easy | [➔](Easy/0283.java) |
+| 0383 | 🟢 [Ransom Note](#ransom-note)  | Easy | [➔](Easy/0383.java) |
+| 0389 | 🟢 [Find the Difference](#find-the-difference)  | Easy | [➔](Easy/0389.java) |
+| 0412 | 🟢 [Fizz Buzz](#fizz-buzz)  | Easy | [➔](Easy/0412.java) |
+| 0459 | 🟢 [Repeated Substring Pattern](#repeated-substring-pattern)  | Easy | [➔](Easy/0459.java) |
+| 0896 | 🟢 [Monotonic Array](#monotonic-array) | Easy | [➔](Easy/0896.java) |
+| 1342 | 🟢 [Number of Steps to Reduce a Number to Zero](#number-of-steps-to-reduce-a-number-to-zero) | Easy | [➔](Easy/1342.java) |
+| 1480 | 🟢 [Running Sum of 1d Array](#running-sum-of-1d-array) | Easy | [➔](Easy/1480.java) |
+| 1502 | 🟢 [Can Make Arithmetic Progression From Sequence](#can-make-arithmetic-progression-from-sequence) | Easy | [➔](Easy/1502.java) |
+| 1672 | 🟢 [Richest Customer Wealth](#richest-customer-wealth) | Easy | [➔](Easy/1672.java) |
+| 1768 | 🟢 [Merge Strings Alternately](#merge-strings-alternately) | Easy | [➔](Easy/1768.java) |
+| 1822 | 🟢 [Sign of the Product of an Array](#sign-of-the-product-of-an-array) | Easy | [➔](Easy/1822.java) |
+
 
 
 
