@@ -4,13 +4,13 @@ This repository contains my solutions to various LeetCode problems. The problems
 
 ## 📜 Table of Contents
 
-| Problem | Difficulty |
-|---------|-----------|
-| 🟢 [Two Sum](#two-sum) | Easy |
-| 🟠 [Add Two Numbers](#add-two-numbers) | Medium |
-| 🔴 [Median of Two Sorted Arrays](#median-of-two-sorted-arrays) | Hard |
-| 🟠 [Longest Substring Without Repeating Characters](#longest-substring-without-repeating-characters) | Medium |
-| 🟢 [Valid Parentheses](#valid-parentheses) | Easy |
+| # | Problem | Difficulty | Problem | Solution   |  
+|---|---------|------------|---------|------------|
+| 1 | 🟢 [Two Sum](#two-sum) | Easy |
+| 1 | 🟠 [Add Two Numbers](#add-two-numbers) | Medium |
+| 1 | 🔴 [Median of Two Sorted Arrays](#median-of-two-sorted-arrays) | Hard |
+| 1 | 🟠 [Longest Substring Without Repeating Characters](#longest-substring-without-repeating-characters) | Medium |
+| 1 | 🟢 [Valid Parentheses](#valid-parentheses) | Easy |
 
 ## 📝 Problem Descriptions
 
