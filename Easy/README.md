@@ -27,11 +27,9 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 1768 | [Merge Strings Alternately](#merge-strings-alternately)  | [➔](Solutions/1768.java) |
 | 1822 | [Sign of the Product of an Array](#sign-of-the-product-of-an-array)  | [➔](Solutions/1822.java) |
 
----
-
 ## 📝 Problem Descriptions
 
-### 1️⃣ Two Sum  
+### Two Sum  
 **Difficulty:** 🟢 Easy  
 **Problem Statement:**  
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.  
@@ -57,7 +55,7 @@ Edit
 
 ---
 
-### 2️⃣ Palindrome Number  
+### Palindrome Number  
 **Difficulty:** 🟢 Easy  
 **Problem Statement:**  
 Determine whether an integer is a palindrome.  
@@ -79,7 +77,7 @@ Edit
 
 ---
 
-### 3️⃣ Roman to Integer  
+### Roman to Integer  
 **Difficulty:** 🟢 Easy  
 **Problem Statement:**  
 Convert a Roman numeral to an integer.
@@ -102,7 +100,7 @@ Edit
 
 ---
 
-### 4️⃣ Longest Common Prefix  
+### Longest Common Prefix  
 **Difficulty:** 🟢 Easy  
 **Problem Statement:**  
 Write a function to find the longest common prefix string amongst an array of strings.  
