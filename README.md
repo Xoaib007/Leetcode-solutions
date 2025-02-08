@@ -35,8 +35,8 @@ LeetCode-Solutions/
 
 1. **Navigate by Difficulty**
    - 🟢 [Easy Problems](Easy)
-   - 🟠 [Medium Problems](Medium/README.md)
-   - 🔴 [Hard Problems](Hard/README.md)
+   - 🟠 [Medium Problems](Medium)
+   - 🔴 [Hard Problems](Hard)
 
 2. **Find a Specific Problem**
    - Each problem is stored in its respective folder.
@@ -51,7 +51,7 @@ LeetCode-Solutions/
    - Navigate to the problem folder and open the file in your preferred IDE.
    - Compile and run the Java file:
      ```sh
-     javac Easy/0001.java && java Easy.0001
+     javac Easy/Solutions/0001.java && java Easy.0001
      ```
 
 ## 🛠️ Contributing
