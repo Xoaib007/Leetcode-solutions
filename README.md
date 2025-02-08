@@ -12,19 +12,22 @@ This repository contains my solutions to LeetCode problems, organized by difficu
 LeetCode-Solutions/
 │── Easy/
 │   ├── README.md
-│   ├── 0001.java
-│   ├── 0009.java
-│   └── ...
+│   │── Solutions/
+│       ├── 0001.java
+│       ├── 0009.java
+│       └── ...  
 │── Medium/
 │   ├── README.md
-│   ├── 0002.java
-│   ├── 0019.java
-│   └── ...
+│   │── Solutions/
+│       ├── 0001.java
+│       ├── 0009.java
+│       └── ...
 │── Hard/
 │   ├── README.md
-│   ├── 0023.java
-│   ├── 0085.java
-│   └── ...
+│   │── Solutions/
+│       ├── 0001.java
+│       ├── 0009.java
+│       └── ...
 │── README.md  (Main Repository README)
 ```
 
