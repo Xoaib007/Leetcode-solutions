@@ -6,27 +6,26 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 
 | # | Problem | Solution |
 |---|---------|----------|
-| 0001 | [Two Sum](#two-sum)  | [➔](Solutions/Two_Sum.java) |
-| 0009 | [Palindrome Number](#palindrome-number)  | [➔](Solutions/Palindrome_Number.java) |
-| 0013 | [Roman to Integer](#roman-to-integer)  | [➔](Solutions/Roman_to_Integer.java) |
-| 0014 | [Longest Common Prefix](#longest-common-prefix)  | [➔](Solutions/Longest_Common_Prefix.java) |
-| 0020 | [Valid Parentheses](#valid-parentheses)  | [➔](Solutions/Valid_Parentheses.java) |
-| 0028 | [Find the Index of the First Occurrence in a String](#find-the-index-of-the-first-occurrence-in-a-string)  | [➔](Solutions/Find_the_Index_of_the_First_Occurrence_in_a_String.java) |
-| 0066 | [Plus One](#plus-one)  | [➔](Solutions/Plus_One.java) |
-| 0242 | [Valid Anagram](#valid-anagram)  | [➔](Solutions/Valid_Anagram.java) |
-| 0283 | [Move Zeroes](#move-zeroes)  | [➔](Solutions/Move_Zeroes.java) |
-| 0383 | [Ransom Note](#ransom-note)  | [➔](Solutions/Ransom_Note.java) |
-| 0389 | [Find the Difference](#find-the-difference)  | [➔](Solutions/Find_the_Difference.java) |
-| 0412 | [Fizz Buzz](#fizz-buzz)  | [➔](Solutions/Fizz_Buzz.java) |
-| 0459 | [Repeated Substring Pattern](#repeated-substring-pattern)  | [➔](Solutions/Repeated_Substring_Pattern.java) |
-| 0896 | [Monotonic Array](#monotonic-array)  | [➔](Solutions/Monotonic_Array.java) |
-| 1342 | [Number of Steps to Reduce a Number to Zero](#number-of-steps-to-reduce-a-number-to-zero)  | [➔](Solutions/Number_of_Steps_to_Reduce_a_Number_to_Zero.java) |
-| 1480 | [Running Sum of 1d Array](#running-sum-of-1d-array)  | [➔](Solutions/Running_Sum_of_1d_Array.java) |
-| 1502 | [Can Make Arithmetic Progression From Sequence](#can-make-arithmetic-progression-from-sequence)  | [➔](Solutions/Can_Make_Arithmetic_Progression_From_Sequence.java) |
-| 1672 | [Richest Customer Wealth](#richest-customer-wealth)  | [➔](Solutions/Richest_Customer_Wealth.java) |
-| 1768 | [Merge Strings Alternately](#merge-strings-alternately)  | [➔](Solutions/Merge_Strings_Alternately.java) |
-| 1822 | [Sign of the Product of an Array](#sign-of-the-product-of-an-array)  | [➔](Solutions/Sign_of_the_Product_of_an_Array.java) |
-
+| 0001 | [Two Sum](#two-sum)  | [➔](Solutions/0001.java) |
+| 0009 | [Palindrome Number](#palindrome-number)  | [➔](Solutions/0009.java) |
+| 0013 | [Roman to Integer](#roman-to-integer)  | [➔](Solutions/0013.java) |
+| 0014 | [Longest Common Prefix](#longest-common-prefix)  | [➔](Solutions/0014.java) |
+| 0020 | [Valid Parentheses](#valid-parentheses)  | [➔](Solutions/0020.java) |
+| 0028 | [Find the Index of the First Occurrence in a String](#find-the-index-of-the-first-occurrence-in-a-string)  | [➔](Solutions/0028.java) |
+| 0066 | [Plus One](#plus-one)  | [➔](Solutions/0066.java) |
+| 0242 | [Valid Anagram](#valid-anagram)  | [➔](Solutions/0242.java) |
+| 0283 | [Move Zeroes](#move-zeroes)  | [➔](Solutions/0283.java) |
+| 0383 | [Ransom Note](#ransom-note)  | [➔](Solutions/0383.java) |
+| 0389 | [Find the Difference](#find-the-difference)  | [➔](Solutions/0389.java) |
+| 0412 | [Fizz Buzz](#fizz-buzz)  | [➔](Solutions/0412.java) |
+| 0459 | [Repeated Substring Pattern](#repeated-substring-pattern)  | [➔](Solutions/0459.java) |
+| 0896 | [Monotonic Array](#monotonic-array)  | [➔](Solutions/0896.java) |
+| 1342 | [Number of Steps to Reduce a Number to Zero](#number-of-steps-to-reduce-a-number-to-zero)  | [➔](Solutions/1342.java) |
+| 1480 | [Running Sum of 1d Array](#running-sum-of-1d-array)  | [➔](Solutions/1480.java) |
+| 1502 | [Can Make Arithmetic Progression From Sequence](#can-make-arithmetic-progression-from-sequence)  | [➔](Solutions/1502.java) |
+| 1672 | [Richest Customer Wealth](#richest-customer-wealth)  | [➔](Solutions/1672.java) |
+| 1768 | [Merge Strings Alternately](#merge-strings-alternately)  | [➔](Solutions/1768.java) |
+| 1822 | [Sign of the Product of an Array](#sign-of-the-product-of-an-array)  | [➔](Solutions/1822.java) |
 
 ---
 
