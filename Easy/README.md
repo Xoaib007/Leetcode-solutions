@@ -2,6 +2,16 @@
 
 This folder contains my solutions for **Easy** LeetCode problems. Each problem includes a description, examples, constraints, and a link to the solution file.
 
+## ⚡ How to Use This Folder
+
+1. Find the problem in the **Table of Contents**.
+2. Click the solution link to open the corresponding `.java` file.
+3. Run the solution in a Java environment:
+   ```sh
+   javac 0001.java && java TwoSum
+Modify and test with your own input.
+
+
 ## 📂 Table of Contents
 
 |   | # | Problem | Solution |
@@ -117,15 +127,6 @@ Edit
 [📂 Solution](0014.java)
 
 ---
-
-## ⚡ How to Use This Folder
-
-1. Find the problem in the **Table of Contents**.
-2. Click the solution link to open the corresponding `.java` file.
-3. Run the solution in a Java environment:
-   ```sh
-   javac 0001.java && java TwoSum
-Modify and test with your own input.
 
 <p align='center'>
    </br>  </br>  </br>  </br>
