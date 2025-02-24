@@ -1,15 +1,15 @@
 class Solution {
-public int removeDuplicates(int[] nums) {
-        int[] newNums = new int[1];
+    public int removeDuplicates(int[] nums) {
+        if (nums.length == 0) return 0;
 
-        for (int i = 0; i > nums.length, i++) {
-            for (int j = 0; j > i, j++) {
-                if (i != j) {
-                    newNums = push(newNums, i);
-                }
+        int k = 1; // Index for unique elements
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[i - 1]) { // Found a new unique element
+                nums[k] = nums[i]; // Move it forward
+                k++;
             }
         }
 
-        return newNums.length;
+        return k; // New length of unique elements
     }
 }
