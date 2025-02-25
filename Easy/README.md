@@ -45,69 +45,116 @@ Modify and test with your own input.
 
 ## 📝 Problem Descriptions
 
+**Difficulty:** 🟢 Easy
 ### Two Sum   
 **Problem Statement:**  
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.  
-You may assume that each input has exactly one solution, and you may not use the same element twice.  
-You can return the answer in any order.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.  
+You can return the answer in any order.  
 
 **Example:**  
-Input: `nums = [2,7,11,15]`, target = `9`
-Output: `[0,1]`
-Explanation: nums[0] + nums[1] == 9, so return [0, 1].
+
+Input: `nums = [2,7,11,15]`, target = `9`  
+Output: `[0,1]`  
+Explanation: Because `nums[0] + nums[1] == 9`, we return `[0, 1]`.  
+
+Input: `nums = [3,2,4]`, target = `6`  
+Output: `[1,2]`  
+
+Input: `nums = [3,3]`, target = `6`  
+Output: `[0,1]`  
 
 **Constraints:**  
-- `2 <= nums.length <= 10^4`
-- `-10^9 <= nums[i] <= 10^9`
-- `-10^9 <= target <= 10^9`
-- Only one valid answer exists.
+- `2 <= nums.length <= 10^4`  
+- `-10^9 <= nums[i] <= 10^9`  
+- `-10^9 <= target <= 10^9`  
+- Only one valid answer exists.  
 
-[📂 Solution](0001.java)
+**Hints:**  
+1. A really brute force way would be to search for all possible pairs of numbers, but that would be too slow. Again, it's best to try out brute force solutions just for completeness. It is from these brute force solutions that you can come up with optimizations.  
+2. So, if we fix one of the numbers, say `x`, we have to scan the entire array to find the next number `y` which is `target - x`. Can we change our array somehow so that this search becomes faster?  
+3. The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?  
+
+[📂 Solution](0001.java)  
 
 ---
 
 ### Palindrome Number  
-**Difficulty:** 🟢 Easy  
 **Problem Statement:**  
-Determine whether an integer is a palindrome.  
-An integer is a palindrome when it reads the same backward as forward.
+Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwise.  
 
 **Example:**  
-Input: x = 121
-Output: true
-Explanation: 121 reads as 121 from left to right and from right to left.
 
-yaml
-Copy
-Edit
+Input: `x = 121`  
+Output: `true`  
+Explanation: `121` reads as `121` from left to right and from right to left.  
+
+Input: `x = -121`  
+Output: `false`  
+Explanation: From left to right, it reads `-121`. From right to left, it becomes `121-`. Therefore, it is not a palindrome.  
+
+Input: `x = 10`  
+Output: `false`  
+Explanation: Reads `01` from right to left. Therefore, it is not a palindrome.  
 
 **Constraints:**  
-- `-2^31 <= x <= 2^31 - 1`
+- `-2^31 <= x <= 2^31 - 1`  
 
-[📂 Solution](0009.java)
+**Hints:**  
+1. Beware of overflow when you reverse the integer.  
+
+[📂 Solution](0009.java)  
 
 ---
 
 ### Roman to Integer  
-**Difficulty:** 🟢 Easy  
 **Problem Statement:**  
-Convert a Roman numeral to an integer.
+Roman numerals are represented by seven different symbols:  
+
+| Symbol | Value |
+|--------|-------|
+| I      | 1     |
+| V      | 5     |
+| X      | 10    |
+| L      | 50    |
+| C      | 100   |
+| D      | 500   |
+| M      | 1000  |
+
+For example, `2` is written as `II` in Roman numerals, just two ones added together. `12` is written as `XII`, which is simply `X + II`. The number `27` is written as `XXVII`, which is `XX + V + II`.  
+
+Roman numerals are usually written from largest to smallest from left to right. However, there are six instances where subtraction is used:  
+
+- `I` can be placed before `V` (5) and `X` (10) to make `4` and `9`.  
+- `X` can be placed before `L` (50) and `C` (100) to make `40` and `90`.  
+- `C` can be placed before `D` (500) and `M` (1000) to make `400` and `900`.  
+
+Given a Roman numeral `s`, convert it to an integer.  
 
 **Example:**  
-Input: s = "III"
-Output: 3
-Explanation: III = 3.
 
-pgsql
-Copy
-Edit
+Input: `s = "III"`  
+Output: `3`  
+Explanation: `III = 3`.  
+
+Input: `s = "LVIII"`  
+Output: `58`  
+Explanation: `L = 50`, `V = 5`, `III = 3`.  
+
+Input: `s = "MCMXCIV"`  
+Output: `1994`  
+Explanation: `M = 1000`, `CM = 900`, `XC = 90` and `IV = 4`.  
 
 **Constraints:**  
-- `1 <= s.length <= 15`
-- `s` contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
-- It is guaranteed that `s` is a valid Roman numeral in the range `[1, 3999]`.
+- `1 <= s.length <= 15`  
+- `s` contains only the characters `('I', 'V', 'X', 'L', 'C', 'D', 'M')`.  
+- It is guaranteed that `s` is a valid Roman numeral in the range `[1, 3999]`.  
 
-[📂 Solution](0013.java)
+**Hints:**  
+1. The problem is simpler to solve by working through the string from back to front and using a map.  
+
+[📂 Solution](0013.java)  
 
 ---
 
