@@ -78,7 +78,7 @@ Output: `[0,1]`
 3. The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?  
 
 [📂 Solution](0001.java)
-</br>
+
 [⬆️ Go to top](#top)
 
 ---
@@ -110,7 +110,7 @@ Explanation: Reads `01` from right to left. Therefore, it is not a palindrome.
 1. Beware of overflow when you reverse the integer.  
 
 [📂 Solution](0009.java)
-</br>
+
 [⬆️ Go to top](#top)
 
 ---
@@ -164,7 +164,7 @@ Explanation: `M = 1000`, `CM = 900`, `XC = 90` and `IV = 4`.
 1. The problem is simpler to solve by working through the string from back to front and using a map.  
 
 [📂 Solution](0013.java)
-</br>
+
 [⬆️ Go to top](#top)  
 
 ---
@@ -203,7 +203,7 @@ Explanation: Your function should return `k = 5`, with the first five elements o
 3. Once an element is encountered, bypass its duplicates and move to the next unique element.  
 
 [📂 Solution](0026.java) 
-</br>
+
 [⬆️ Go to top](#top)
 
 ---
@@ -245,7 +245,7 @@ It does not matter what you leave beyond the returned `k` (hence they are unders
 3. Another approach is to copy the non-`val` elements in-place in a single pass.  
 
 [📂 Solution](0027.java)  
-</br>  
+
 [⬆️ Go to top](#top)  
 
 ---
@@ -272,7 +272,7 @@ Explanation: `"leeto"` did not occur in `"leetcode"`, so we return `-1`.
 - `haystack` and `needle` consist of only lowercase English characters.  
 
 [📂 Solution](0028.java)  
-</br>  
+
 [⬆️ Go to top](#top)  
 
 ---
@@ -304,7 +304,7 @@ Output: `4`
 - `-10^4 <= target <= 10^4`  
 
 [📂 Solution](0035.java)  
-</br>  
+
 [⬆️ Go to top](#top)  
 
 ---
@@ -337,7 +337,7 @@ Explanation: The last word is `"joyboy"` with length `6`.
 - There will be at least **one word** in `s`.  
 
 [📂 Solution](0058.java)  
-</br>  
+
 [⬆️ Go to top](#top)  
 
 ---
@@ -376,7 +376,7 @@ Thus, the result should be `[1,0]`.
 - `digits` does **not** contain any leading `0`s.  
 
 [📂 Solution](0066.java)  
-</br>  
+
 [⬆️ Go to top](#top)  
 
 ---
@@ -401,7 +401,7 @@ Output: `"10101"`
 - Each string does not contain **leading zeros** except for the zero itself.  
 
 [📂 Solution](0067.java)  
-</br>  
+ 
 [⬆️ Go to top](#top)  
 
 ---
@@ -433,7 +433,7 @@ Explanation: The square root of 8 is `2.82842...`, and since we round it **down*
 2. Use the **sorted property** of integers to reduce the search space (consider binary search).  
 
 [📂 Solution](0069.java)  
-</br>  
+
 [⬆️ Go to top](#top)  
 
 ---
