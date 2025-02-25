@@ -20,13 +20,13 @@ Modify and test with your own input.
 | 4  | 14 | [Longest Common Prefix](#-longest-common-prefix)  | [➔](Solutions/0014.java) |
 | 5  | 20 | [Valid Parentheses](#-valid-parentheses)  | [➔](Solutions/0020.java) |
 | 6  | 26 | [Remove Duplicates from Sorted Array](#-remove-duplicates-from-sorted-array)  | [➔](Solutions/0026.java) |
-| 7  | 27 | [Remove Element](#remove-element)  | [➔](Solutions/0027.java) |
-| 8  | 28 | [Find the Index of the First Occurrence in a String](#find-the-index-of-the-first-occurrence-in-a-string)  | [➔](Solutions/0028.java) |
-| 9  | 35 | [Search Insert Position](#search-insert-position)  | [➔](Solutions/0035.java) |
-| 10 | 58 | [Length of Last Word](#length-of-last-word)  | [➔](Solutions/0058.java) |
-| 11 | 66 | [Plus One](#plus-one)  | [➔](Solutions/0066.java) |
-| 12 | 67 | [Add Binary](#add-binary)  | [➔](Solutions/0067.java) |
-| 13 | 69 | [Sqrt(x)](#sqrtx)  | [➔](Solutions/0069.java) |
+| 7  | 27 | [Remove Element](#-remove-element)  | [➔](Solutions/0027.java) |
+| 8  | 28 | [Find the Index of the First Occurrence in a String](#-find-the-index-of-the-first-occurrence-in-a-string)  | [➔](Solutions/0028.java) |
+| 9  | 35 | [Search Insert Position](#-search-insert-position)  | [➔](Solutions/0035.java) |
+| 10 | 58 | [Length of Last Word](#-length-of-last-word)  | [➔](Solutions/0058.java) |
+| 11 | 66 | [Plus One](#-plus-one)  | [➔](Solutions/0066.java) |
+| 12 | 67 | [Add Binary](#-add-binary)  | [➔](Solutions/0067.java) |
+| 13 | 69 | [Sqrt(x)](#-sqrtx)  | [➔](Solutions/0069.java) |
 | 14 | 242 | [Valid Anagram](#valid-anagram)  | [➔](Solutions/0242.java) |
 | 15 | 283 | [Move Zeroes](#move-zeroes)  | [➔](Solutions/0283.java) |
 | 16 | 383 | [Ransom Note](#ransom-note)  | [➔](Solutions/0383.java) |
@@ -245,6 +245,187 @@ It does not matter what you leave beyond the returned `k` (hence they are unders
 
 ---
 
+### ✅ Find the Index of the First Occurrence in a String  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given two strings `needle` and `haystack`, return the index of the first occurrence of `needle` in `haystack`, or `-1` if `needle` is not part of `haystack`.  
+
+**Example:**  
+
+Input: `haystack = "sadbutsad"`, `needle = "sad"`  
+Output: `0`  
+Explanation: `"sad"` occurs at index `0` and `6`.  
+The first occurrence is at index `0`, so we return `0`.  
+
+Input: `haystack = "leetcode"`, `needle = "leeto"`  
+Output: `-1`  
+Explanation: `"leeto"` did not occur in `"leetcode"`, so we return `-1`.  
+
+**Constraints:**  
+- `1 <= haystack.length, needle.length <= 10^4`  
+- `haystack` and `needle` consist of only lowercase English characters.  
+
+[📂 Solution](0028.java)  
+</br>  
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Search Insert Position  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given a sorted array of **distinct** integers and a `target` value, return the index if the `target` is found.  
+If not, return the index where it would be if it were inserted in order.  
+
+You must write an algorithm with **O(log n)** runtime complexity.  
+
+**Example:**  
+
+Input: `nums = [1,3,5,6]`, `target = 5`  
+Output: `2`  
+
+Input: `nums = [1,3,5,6]`, `target = 2`  
+Output: `1`  
+
+Input: `nums = [1,3,5,6]`, `target = 7`  
+Output: `4`  
+
+**Constraints:**  
+- `1 <= nums.length <= 10^4`  
+- `-10^4 <= nums[i] <= 10^4`  
+- `nums` contains **distinct** values sorted in **ascending order**.  
+- `-10^4 <= target <= 10^4`  
+
+[📂 Solution](0035.java)  
+</br>  
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Length of Last Word  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given a string `s` consisting of words and spaces, return the **length** of the **last word** in the string.  
+
+A **word** is a maximal substring consisting of **non-space** characters only.  
+
+**Example:**  
+
+Input: `s = "Hello World"`  
+Output: `5`  
+Explanation: The last word is `"World"` with length `5`.  
+
+Input: `s = "   fly me   to   the moon  "`  
+Output: `4`  
+Explanation: The last word is `"moon"` with length `4`.  
+
+Input: `s = "luffy is still joyboy"`  
+Output: `6`  
+Explanation: The last word is `"joyboy"` with length `6`.  
+
+**Constraints:**  
+- `1 <= s.length <= 10^4`  
+- `s` consists of only **English letters** and **spaces (' ')**.  
+- There will be at least **one word** in `s`.  
+
+[📂 Solution](0058.java)  
+</br>  
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Plus One  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the `i`-th digit of the integer. The digits are ordered from **most significant** to **least significant** in left-to-right order. The large integer does **not** contain any leading `0`s.  
+
+Increment the large integer by **one** and return the resulting array of digits.  
+
+**Example:**  
+
+Input: `digits = [1,2,3]`  
+Output: `[1,2,4]`  
+Explanation: The array represents the integer `123`.  
+Incrementing by one gives `123 + 1 = 124`.  
+Thus, the result should be `[1,2,4]`.  
+
+Input: `digits = [4,3,2,1]`  
+Output: `[4,3,2,2]`  
+Explanation: The array represents the integer `4321`.  
+Incrementing by one gives `4321 + 1 = 4322`.  
+Thus, the result should be `[4,3,2,2]`.  
+
+Input: `digits = [9]`  
+Output: `[1,0]`  
+Explanation: The array represents the integer `9`.  
+Incrementing by one gives `9 + 1 = 10`.  
+Thus, the result should be `[1,0]`.  
+
+**Constraints:**  
+- `1 <= digits.length <= 100`  
+- `0 <= digits[i] <= 9`  
+- `digits` does **not** contain any leading `0`s.  
+
+[📂 Solution](0066.java)  
+</br>  
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Add Binary  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given two **binary strings** `a` and `b`, return **their sum** as a binary string.  
+
+**Example:**  
+
+Input: `a = "11"`, `b = "1"`  
+Output: `"100"`  
+
+Input: `a = "1010"`, `b = "1011"`  
+Output: `"10101"`  
+
+**Constraints:**  
+- `1 <= a.length, b.length <= 10^4`  
+- `a` and `b` consist only of `'0'` or `'1'` characters.  
+- Each string does not contain **leading zeros** except for the zero itself.  
+
+[📂 Solution](0067.java)  
+</br>  
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Sqrt(x)  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given a **non-negative integer** `x`, return the **square root** of `x` **rounded down** to the nearest integer.  
+The returned integer should be **non-negative** as well.  
+
+🚨 **You must not use any built-in exponent function** or operator like `pow(x, 0.5)` or `x ** 0.5`.  
+
+**Example:**  
+
+Input: `x = 4`  
+Output: `2`  
+Explanation: The square root of 4 is `2`, so we return `2`.  
+
+Input: `x = 8`  
+Output: `2`  
+Explanation: The square root of 8 is `2.82842...`, and since we round it **down** to the nearest integer, `2` is returned.  
+
+**Constraints:**  
+- `0 <= x <= 2^31 - 1`  
+
+**Hints:**  
+1. Try **exploring all integers**.  
+2. Use the **sorted property** of integers to reduce the search space (consider binary search).  
+
+[📂 Solution](0069.java)  
+</br>  
+[⬆️ Go to top](#top)  
+
+---
 
 
 <p align='center'>
