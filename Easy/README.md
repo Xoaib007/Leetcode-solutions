@@ -23,20 +23,24 @@ Modify and test with your own input.
 | 7  | 27 | [Remove Element](#remove-element)  | [➔](Solutions/0027.java) |
 | 8  | 28 | [Find the Index of the First Occurrence in a String](#find-the-index-of-the-first-occurrence-in-a-string)  | [➔](Solutions/0028.java) |
 | 9  | 35 | [Search Insert Position](#search-insert-position)  | [➔](Solutions/0035.java) |
-| 10 | 66 | [Plus One](#plus-one)  | [➔](Solutions/0066.java) |
-| 11 | 242 | [Valid Anagram](#valid-anagram)  | [➔](Solutions/0242.java) |
-| 12 | 283 | [Move Zeroes](#move-zeroes)  | [➔](Solutions/0283.java) |
-| 13 | 383 | [Ransom Note](#ransom-note)  | [➔](Solutions/0383.java) |
-| 14 | 389 | [Find the Difference](#find-the-difference)  | [➔](Solutions/0389.java) |
-| 15 | 412 | [Fizz Buzz](#fizz-buzz)  | [➔](Solutions/0412.java) |
-| 16 | 459 | [Repeated Substring Pattern](#repeated-substring-pattern)  | [➔](Solutions/0459.java) |
-| 17 | 896 | [Monotonic Array](#monotonic-array)  | [➔](Solutions/0896.java) |
-| 18 | 1342 | [Number of Steps to Reduce a Number to Zero](#number-of-steps-to-reduce-a-number-to-zero)  | [➔](Solutions/1342.java) |
-| 19 | 1480 | [Running Sum of 1d Array](#running-sum-of-1d-array)  | [➔](Solutions/1480.java) |
-| 20 | 1502 | [Can Make Arithmetic Progression From Sequence](#can-make-arithmetic-progression-from-sequence)  | [➔](Solutions/1502.java) |
-| 21 | 1672 | [Richest Customer Wealth](#richest-customer-wealth)  | [➔](Solutions/1672.java) |
-| 22 | 1768 | [Merge Strings Alternately](#merge-strings-alternately)  | [➔](Solutions/1768.java) |
-| 23 | 1822 | [Sign of the Product of an Array](#sign-of-the-product-of-an-array)  | [➔](Solutions/1822.java) |
+| 10 | 58 | [Length of Last Word](#length-of-last-word)  | [➔](Solutions/0058.java) |
+| 11 | 66 | [Plus One](#plus-one)  | [➔](Solutions/0066.java) |
+| 12 | 67 | [Add Binary](#add-binary)  | [➔](Solutions/0067.java) |
+| 13 | 69 | [Sqrt(x)](#sqrtx)  | [➔](Solutions/0069.java) |
+| 14 | 242 | [Valid Anagram](#valid-anagram)  | [➔](Solutions/0242.java) |
+| 15 | 283 | [Move Zeroes](#move-zeroes)  | [➔](Solutions/0283.java) |
+| 16 | 383 | [Ransom Note](#ransom-note)  | [➔](Solutions/0383.java) |
+| 17 | 389 | [Find the Difference](#find-the-difference)  | [➔](Solutions/0389.java) |
+| 18 | 412 | [Fizz Buzz](#fizz-buzz)  | [➔](Solutions/0412.java) |
+| 19 | 459 | [Repeated Substring Pattern](#repeated-substring-pattern)  | [➔](Solutions/0459.java) |
+| 20 | 896 | [Monotonic Array](#monotonic-array)  | [➔](Solutions/0896.java) |
+| 21 | 1342 | [Number of Steps to Reduce a Number to Zero](#number-of-steps-to-reduce-a-number-to-zero)  | [➔](Solutions/1342.java) |
+| 22 | 1480 | [Running Sum of 1d Array](#running-sum-of-1d-array)  | [➔](Solutions/1480.java) |
+| 23 | 1502 | [Can Make Arithmetic Progression From Sequence](#can-make-arithmetic-progression-from-sequence)  | [➔](Solutions/1502.java) |
+| 24 | 1672 | [Richest Customer Wealth](#richest-customer-wealth)  | [➔](Solutions/1672.java) |
+| 25 | 1768 | [Merge Strings Alternately](#merge-strings-alternately)  | [➔](Solutions/1768.java) |
+| 26 | 1822 | [Sign of the Product of an Array](#sign-of-the-product-of-an-array)  | [➔](Solutions/1822.java) |
+
 
 
 ## 📝 Problem Descriptions
