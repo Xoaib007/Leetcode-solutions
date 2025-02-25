@@ -19,7 +19,7 @@ Modify and test with your own input.
 | 3  | 13 | [Roman to Integer](#roman-to-integer)  | [➔](Solutions/0013.java) |
 | 4  | 14 | [Longest Common Prefix](#longest-common-prefix)  | [➔](Solutions/0014.java) |
 | 5  | 20 | [Valid Parentheses](#valid-parentheses)  | [➔](Solutions/0020.java) |
-| 6  | 26 | [Remove Duplicates from Sorted Array](#✅remove-duplicates-from-sorted-array)  | [➔](Solutions/0026.java) |
+| 6  | 26 | [Remove Duplicates from Sorted Array](#-remove-duplicates-from-sorted-array)  | [➔](Solutions/0026.java) |
 | 7  | 27 | [Remove Element](#remove-element)  | [➔](Solutions/0027.java) |
 | 8  | 28 | [Find the Index of the First Occurrence in a String](#find-the-index-of-the-first-occurrence-in-a-string)  | [➔](Solutions/0028.java) |
 | 9  | 35 | [Search Insert Position](#search-insert-position)  | [➔](Solutions/0035.java) |
