@@ -14,11 +14,11 @@ Modify and test with your own input.
 
 |   | # | Problem | Solution |
 |---|---|---------|----------|
-| 1  | 1  | [Two Sum](#two-sum)  | [➔](Solutions/0001.java) |
-| 2  | 9  | [Palindrome Number](#palindrome-number)  | [➔](Solutions/0009.java) |
-| 3  | 13 | [Roman to Integer](#roman-to-integer)  | [➔](Solutions/0013.java) |
-| 4  | 14 | [Longest Common Prefix](#longest-common-prefix)  | [➔](Solutions/0014.java) |
-| 5  | 20 | [Valid Parentheses](#valid-parentheses)  | [➔](Solutions/0020.java) |
+| 1  | 1  | [Two Sum](#-two-sum)  | [➔](Solutions/0001.java) |
+| 2  | 9  | [Palindrome Number](#-palindrome-number)  | [➔](Solutions/0009.java) |
+| 3  | 13 | [Roman to Integer](#-roman-to-integer)  | [➔](Solutions/0013.java) |
+| 4  | 14 | [Longest Common Prefix](#-longest-common-prefix)  | [➔](Solutions/0014.java) |
+| 5  | 20 | [Valid Parentheses](#-valid-parentheses)  | [➔](Solutions/0020.java) |
 | 6  | 26 | [Remove Duplicates from Sorted Array](#-remove-duplicates-from-sorted-array)  | [➔](Solutions/0026.java) |
 | 7  | 27 | [Remove Element](#remove-element)  | [➔](Solutions/0027.java) |
 | 8  | 28 | [Find the Index of the First Occurrence in a String](#find-the-index-of-the-first-occurrence-in-a-string)  | [➔](Solutions/0028.java) |
@@ -45,8 +45,8 @@ Modify and test with your own input.
 
 ## 📝 Problem Descriptions
 
+### ✅ Two Sum
 **Difficulty:** 🟢 Easy
-### Two Sum   
 **Problem Statement:**  
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.  
 
@@ -76,11 +76,14 @@ Output: `[0,1]`
 2. So, if we fix one of the numbers, say `x`, we have to scan the entire array to find the next number `y` which is `target - x`. Can we change our array somehow so that this search becomes faster?  
 3. The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?  
 
-[📂 Solution](0001.java)  
+[📂 Solution](0001.java)
+</br>
+[⬆️ Go to top](#top)
 
 ---
 
-### Palindrome Number  
+### ✅ Palindrome Number 
+**Difficulty:** 🟢 Easy
 **Problem Statement:**  
 Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwise.  
 
@@ -104,11 +107,14 @@ Explanation: Reads `01` from right to left. Therefore, it is not a palindrome.
 **Hints:**  
 1. Beware of overflow when you reverse the integer.  
 
-[📂 Solution](0009.java)  
+[📂 Solution](0009.java)
+</br>
+[⬆️ Go to top](#top)
 
 ---
 
-### Roman to Integer  
+### ✅ Roman to Integer 
+**Difficulty:** 🟢 Easy
 **Problem Statement:**  
 Roman numerals are represented by seven different symbols:  
 
@@ -154,11 +160,14 @@ Explanation: `M = 1000`, `CM = 900`, `XC = 90` and `IV = 4`.
 **Hints:**  
 1. The problem is simpler to solve by working through the string from back to front and using a map.  
 
-[📂 Solution](0013.java)  
+[📂 Solution](0013.java)
+</br>
+[⬆️ Go to top](#top)  
 
 ---
 
-### ✅ Remove Duplicates from Sorted Array  
+### ✅ Remove Duplicates from Sorted Array
+**Difficulty:** 🟢 Easy
 **Problem Statement:**  
 Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.  
 
@@ -184,15 +193,58 @@ Explanation: Your function should return `k = 5`, with the first five elements o
 - `nums` is sorted in non-decreasing order.  
 
 **Hints:**  
-1. The key point to focus on is that the input array is sorted. Consider the positioning of duplicate elements in the sorted array.  
+1. The key point to focus on is that the input array is sorted. Consider the positioning of duplicate elements in the sorted array.
+</br><img src="https://github.com/user-attachments/assets/f7503246-a798-4c55-829d-2677429734a6" alt="drawing" width="400" align='center'/></br>
 2. We need to modify the array in-place, so a two-pointer approach is useful: one pointer to track the current element in the original array and another for unique elements.  
 3. Once an element is encountered, bypass its duplicates and move to the next unique element.  
 
 [📂 Solution](0026.java) 
 </br>
-[⬆️](#top)
+[⬆️ Go to top](#top)
 
 ---
+
+### ✅ Remove Element  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` in-place. The order of the elements may be changed. Then return the number of elements in `nums` which are not equal to `val`.  
+
+Consider the number of elements in `nums` that are not equal to `val` as `k`. To get accepted, you need to do the following:  
+
+- Modify the array `nums` such that the first `k` elements contain the elements which are not equal to `val`.  
+- The remaining elements of `nums` are not important.  
+- Return `k`.  
+
+**Example:**  
+
+Input: `nums = [3,2,2,3]`, `val = 3`  
+Output: `2, nums = [2,2,_,_]`  
+Explanation: Your function should return `k = 2`, with the first two elements of `nums` being `2`.  
+It does not matter what you leave beyond the returned `k` (hence they are underscores).  
+
+Input: `nums = [0,1,2,2,3,0,4,2]`, `val = 2`  
+Output: `5, nums = [0,1,4,0,3,_,_,_]`  
+Explanation: Your function should return `k = 5`, with the first five elements of `nums` being `0, 1, 4, 0, and 3`.  
+The five elements can be returned in any order.  
+It does not matter what you leave beyond the returned `k` (hence they are underscores).  
+
+**Constraints:**  
+- `0 <= nums.length <= 100`  
+- `0 <= nums[i] <= 50`  
+- `0 <= val <= 100`  
+
+**Hints:**  
+1. The problem asks us to modify the array in-place, but elements beyond the new length can be anything.  
+2. We can move all occurrences of `val` to the end of the array using two pointers.
+</br><img src="https://github.com/user-attachments/assets/990e3ed1-bf53-4b1d-b4ca-3053aaf626d1" alt="drawing" width="400" align='center'/></br>
+3. Another approach is to copy the non-`val` elements in-place in a single pass.  
+
+[📂 Solution](0027.java)  
+</br>  
+[⬆️ Go to top](#top)  
+
+---
+
 
 
 <p align='center'>
