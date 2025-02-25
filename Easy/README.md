@@ -47,6 +47,7 @@ Modify and test with your own input.
 
 ### ✅ Two Sum
 **Difficulty:** 🟢 Easy
+
 **Problem Statement:**  
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.  
 
@@ -84,6 +85,7 @@ Output: `[0,1]`
 
 ### ✅ Palindrome Number 
 **Difficulty:** 🟢 Easy
+
 **Problem Statement:**  
 Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwise.  
 
@@ -115,6 +117,7 @@ Explanation: Reads `01` from right to left. Therefore, it is not a palindrome.
 
 ### ✅ Roman to Integer 
 **Difficulty:** 🟢 Easy
+
 **Problem Statement:**  
 Roman numerals are represented by seven different symbols:  
 
@@ -168,6 +171,7 @@ Explanation: `M = 1000`, `CM = 900`, `XC = 90` and `IV = 4`.
 
 ### ✅ Remove Duplicates from Sorted Array
 **Difficulty:** 🟢 Easy
+
 **Problem Statement:**  
 Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.  
 
@@ -205,7 +209,8 @@ Explanation: Your function should return `k = 5`, with the first five elements o
 ---
 
 ### ✅ Remove Element  
-**Difficulty:** 🟢 Easy  
+**Difficulty:** 🟢 Easy
+
 **Problem Statement:**  
 Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` in-place. The order of the elements may be changed. Then return the number of elements in `nums` which are not equal to `val`.  
 
@@ -246,7 +251,8 @@ It does not matter what you leave beyond the returned `k` (hence they are unders
 ---
 
 ### ✅ Find the Index of the First Occurrence in a String  
-**Difficulty:** 🟢 Easy  
+**Difficulty:** 🟢 Easy
+
 **Problem Statement:**  
 Given two strings `needle` and `haystack`, return the index of the first occurrence of `needle` in `haystack`, or `-1` if `needle` is not part of `haystack`.  
 
@@ -272,7 +278,8 @@ Explanation: `"leeto"` did not occur in `"leetcode"`, so we return `-1`.
 ---
 
 ### ✅ Search Insert Position  
-**Difficulty:** 🟢 Easy  
+**Difficulty:** 🟢 Easy
+
 **Problem Statement:**  
 Given a sorted array of **distinct** integers and a `target` value, return the index if the `target` is found.  
 If not, return the index where it would be if it were inserted in order.  
@@ -303,7 +310,8 @@ Output: `4`
 ---
 
 ### ✅ Length of Last Word  
-**Difficulty:** 🟢 Easy  
+**Difficulty:** 🟢 Easy 
+
 **Problem Statement:**  
 Given a string `s` consisting of words and spaces, return the **length** of the **last word** in the string.  
 
@@ -336,6 +344,7 @@ Explanation: The last word is `"joyboy"` with length `6`.
 
 ### ✅ Plus One  
 **Difficulty:** 🟢 Easy  
+
 **Problem Statement:**  
 You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the `i`-th digit of the integer. The digits are ordered from **most significant** to **least significant** in left-to-right order. The large integer does **not** contain any leading `0`s.  
 
@@ -373,7 +382,8 @@ Thus, the result should be `[1,0]`.
 ---
 
 ### ✅ Add Binary  
-**Difficulty:** 🟢 Easy  
+**Difficulty:** 🟢 Easy 
+
 **Problem Statement:**  
 Given two **binary strings** `a` and `b`, return **their sum** as a binary string.  
 
@@ -397,7 +407,8 @@ Output: `"10101"`
 ---
 
 ### ✅ Sqrt(x)  
-**Difficulty:** 🟢 Easy  
+**Difficulty:** 🟢 Easy
+
 **Problem Statement:**  
 Given a **non-negative integer** `x`, return the **square root** of `x` **rounded down** to the nearest integer.  
 The returned integer should be **non-negative** as well.  
