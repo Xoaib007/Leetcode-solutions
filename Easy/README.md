@@ -189,7 +189,8 @@ Explanation: Your function should return `k = 5`, with the first five elements o
 3. Once an element is encountered, bypass its duplicates and move to the next unique element.  
 
 [📂 Solution](0026.java) 
-[Top](#top)
+</br>
+[↑Top](#top)
 
 ---
 
