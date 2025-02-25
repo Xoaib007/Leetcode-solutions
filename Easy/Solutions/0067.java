@@ -20,3 +20,7 @@ class Solution {
         return sum.toString(2);
     }
 }
+
+
+//BigInterger
+// decimalValueA
