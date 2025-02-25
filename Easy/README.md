@@ -158,28 +158,41 @@ Explanation: `M = 1000`, `CM = 900`, `XC = 90` and `IV = 4`.
 
 ---
 
-### Longest Common Prefix  
-**Difficulty:** 🟢 Easy  
+### Remove Duplicates from Sorted Array  
 **Problem Statement:**  
-Write a function to find the longest common prefix string amongst an array of strings.  
-If there is no common prefix, return an empty string `""`.
+Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.  
+
+Consider the number of unique elements of `nums` to be `k`. To get accepted, you need to do the following:  
+
+- Modify the array `nums` such that the first `k` elements contain the unique elements in the order they appeared in `nums` initially.  
+- The remaining elements of `nums` are not important.  
+- Return `k`.  
 
 **Example:**  
-Input: strs = ["flower","flow","flight"]
-Output: "fl"
 
-markdown
-Copy
-Edit
+Input: `nums = [1,1,2]`  
+Output: `2, nums = [1,2,_]`  
+Explanation: Your function should return `k = 2`, with the first two elements of `nums` being `1` and `2` respectively.  
+
+Input: `nums = [0,0,1,1,1,2,2,3,3,4]`  
+Output: `5, nums = [0,1,2,3,4,_,_,_,_,_]`  
+Explanation: Your function should return `k = 5`, with the first five elements of `nums` being `0, 1, 2, 3, and 4` respectively.  
 
 **Constraints:**  
-- `1 <= strs.length <= 200`
-- `0 <= strs[i].length <= 200`
-- `strs[i]` consists of only lowercase English letters.
+- `1 <= nums.length <= 3 * 10^4`  
+- `-100 <= nums[i] <= 100`  
+- `nums` is sorted in non-decreasing order.  
 
-[📂 Solution](0014.java)
+**Hints:**  
+1. The key point to focus on is that the input array is sorted. Consider the positioning of duplicate elements in the sorted array.  
+2. We need to modify the array in-place, so a two-pointer approach is useful: one pointer to track the current element in the original array and another for unique elements.  
+3. Once an element is encountered, bypass its duplicates and move to the next unique element.  
+
+[📂 Solution](0026.java) 
+[Top](#top)
 
 ---
+
 
 <p align='center'>
    </br>  </br>  </br>  </br>
