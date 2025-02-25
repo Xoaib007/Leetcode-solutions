@@ -158,7 +158,7 @@ Explanation: `M = 1000`, `CM = 900`, `XC = 90` and `IV = 4`.
 
 ---
 
-### Remove Duplicates from Sorted Array  
+### ✅ Remove Duplicates from Sorted Array  
 **Problem Statement:**  
 Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.  
 
@@ -190,7 +190,7 @@ Explanation: Your function should return `k = 5`, with the first five elements o
 
 [📂 Solution](0026.java) 
 </br>
-[↑Top](#top)
+[⬆️](#top)
 
 ---
 
