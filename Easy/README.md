@@ -438,6 +438,64 @@ Explanation: The square root of 8 is `2.82842...`, and since we round it **down*
 
 ---
 
+### ✅ Valid Anagram  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given two strings `s` and `t`, return `true` if `t` is an **anagram** of `s`, and `false` otherwise.  
+
+**Example:**  
+
+Input: `s = "anagram"`, `t = "nagaram"`  
+Output: `true`  
+
+Input: `s = "rat"`, `t = "car"`  
+Output: `false`  
+
+**Constraints:**  
+- `1 <= s.length, t.length <= 5 * 10^4`  
+- `s` and `t` consist of **lowercase English letters**.  
+
+**Follow-up:**  
+- What if the inputs contain **Unicode characters**? How would you adapt your solution to handle this case?  
+
+[📂 Solution](0242.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Move Zeroes  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given an integer array `nums`, move all `0`s to the **end** of it while maintaining the **relative order** of the non-zero elements.  
+
+**Note:**  
+- You must do this **in-place** without making a copy of the array.  
+
+**Example:**  
+
+Input: `nums = [0,1,0,3,12]`  
+Output: `[1,3,12,0,0]`  
+
+Input: `nums = [0]`  
+Output: `[0]`  
+
+**Constraints:**  
+- `1 <= nums.length <= 10^4`  
+- `-2^31 <= nums[i] <= 2^31 - 1`  
+
+**Hints:**  
+1. **In-place** means we **cannot** allocate extra space. But as a first step, try solving it using an **additional array**, then work on optimizing it.  
+2. A **two-pointer** approach can be useful. One pointer iterates through the array, while the other keeps track of the position to place the next non-zero element.  
+
+[📂 Solution](0283.java)  
+</br>  
+[⬆️ Go to top](#top)  
+
+---
+
+
+
 
 <p align='center'>
    </br>  </br>  </br>  </br>
