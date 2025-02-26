@@ -167,6 +167,76 @@ Explanation: `M = 1000`, `CM = 900`, `XC = 90` and `IV = 4`.
 [⬆️ Go to top](#top)  
 
 ---
+### ✅ Longest Common Prefix  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Write a function to find the **longest common prefix** string amongst an array of strings.  
+
+If there is **no common prefix**, return an **empty string** `""`.  
+
+**Example:**  
+
+Input: `strs = ["flower","flow","flight"]`  
+Output: `"fl"`  
+
+Input: `strs = ["dog","racecar","car"]`  
+Output: `""`  
+Explanation: There is no common prefix among the input strings.  
+
+**Constraints:**  
+- `1 <= strs.length <= 200`  
+- `0 <= strs[i].length <= 200`  
+- `strs[i]` consists of only lowercase English letters.  
+
+**Hints:**  
+1. The **horizontal scanning** method compares prefixes of each word one by one.  
+2. The **vertical scanning** method compares each character position across all words.  
+3. A **binary search** method can be used to find the longest prefix efficiently.  
+
+[📂 Solution](0014.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Valid Parentheses  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['`, and `']'`, determine if the input string is **valid**.  
+
+A string is **valid** if:  
+- Open brackets must be closed by the same type of brackets.  
+- Open brackets must be closed in the correct order.  
+- Every closing bracket has a corresponding open bracket of the same type.  
+
+**Example:**  
+
+Input: `s = "()"`  
+Output: `true`  
+
+Input: `s = "()[]{}"`  
+Output: `true`  
+
+Input: `s = "(]"`  
+Output: `false`  
+
+Input: `s = "([])"`  
+Output: `true`  
+
+**Constraints:**  
+- `1 <= s.length <= 10^4`  
+- `s` consists only of `()[]{}`  
+
+**Hints:**  
+1. Use a **stack** to keep track of open brackets.  
+2. When encountering an **opening bracket**, push it onto the stack.  
+3. When encountering a **closing bracket**, check if it matches the **top of the stack**. If it does, pop the stack; otherwise, return `false`.  
+
+[📂 Solution](0020.java)  
+
+[⬆️ Go to top](#top)  
+
+---
 
 ### ✅ Remove Duplicates from Sorted Array
 **Difficulty:** 🟢 Easy
@@ -437,6 +507,41 @@ Explanation: The square root of 8 is `2.82842...`, and since we round it **down*
 
 ---
 
+### ✅ Climbing Stairs  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+You are climbing a staircase. It takes `n` steps to reach the top.  
+
+Each time you can either climb **1** or **2** steps. In how many distinct ways can you reach the top?  
+
+**Example:**  
+
+Input: `n = 2`  
+Output: `2`  
+Explanation: There are two ways to climb to the top:  
+1. `1 step + 1 step`  
+2. `2 steps`  
+
+Input: `n = 3`  
+Output: `3`  
+Explanation: There are three ways to climb to the top:  
+1. `1 step + 1 step + 1 step`  
+2. `1 step + 2 steps`  
+3. `2 steps + 1 step`  
+
+**Constraints:**  
+- `1 <= n <= 45`  
+
+**Hints:**  
+1. To reach the `n`th step, you must have come from either `(n-1)`th step (1 step) or `(n-2)`th step (2 steps).  
+2. This forms a **Fibonacci sequence** where `f(n) = f(n-1) + f(n-2)`, with base cases `f(1) = 1`, `f(2) = 2`.  
+
+[📂 Solution](0070.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 ### ✅ Valid Anagram  
 **Difficulty:** 🟢 Easy  
 **Problem Statement:**  
@@ -488,7 +593,7 @@ Output: `[0]`
 2. A **two-pointer** approach can be useful. One pointer iterates through the array, while the other keeps track of the position to place the next non-zero element.  
 
 [📂 Solution](0283.java)  
-</br>  
+
 [⬆️ Go to top](#top)  
 
 ---
