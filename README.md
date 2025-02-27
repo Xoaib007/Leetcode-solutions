@@ -11,19 +11,19 @@ This repository contains my solutions to LeetCode problems, organized by difficu
 ```
 LeetCode-Solutions/
 │── Easy/
-│   ├── README.md
+│   ├── README.md (Problem descriptions and list)
 │   │── Solutions/
 │       ├── 0001.java
 │       ├── 0009.java
 │       └── ...  
 │── Medium/
-│   ├── README.md
+│   ├── README.md (Problem descriptions and list)
 │   │── Solutions/
 │       ├── 0001.java
 │       ├── 0009.java
 │       └── ...
 │── Hard/
-│   ├── README.md
+│   ├── README.md (Problem descriptions and list)
 │   │── Solutions/
 │       ├── 0001.java
 │       ├── 0009.java
