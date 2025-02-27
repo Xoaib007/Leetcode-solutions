@@ -659,12 +659,76 @@ Output: `"y"`
 2. XOR all characters from both `s` and `t`, the result will be the extra letter.  
 
 [📂 Solution](0389.java)  
+
 [⬆️ Go to top](#top)  
 
 ---
 
+### ✅ Fizz Buzz  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given an integer `n`, return a string array `answer` (1-indexed) where:  
 
+- `answer[i] == "FizzBuzz"` if `i` is divisible by **3 and 5**.  
+- `answer[i] == "Fizz"` if `i` is divisible by **3**.  
+- `answer[i] == "Buzz"` if `i` is divisible by **5**.  
+- `answer[i] == i` (as a string) if none of the above conditions are true.  
 
+**Example:**  
+
+Input: `n = 3`  
+Output: `["1","2","Fizz"]`  
+
+Input: `n = 5`  
+Output: `["1","2","Fizz","4","Buzz"]`  
+
+Input: `n = 15`  
+Output: `["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]`  
+
+**Constraints:**  
+- `1 <= n <= 10^4`  
+
+**Hints:**  
+1. Loop from `1` to `n` and check divisibility conditions.  
+2. Use `if-else` statements to construct the result dynamically.  
+
+[📂 Solution](0412.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Repeated Substring Pattern  
+**Difficulty:** 🟢 Easy  
+**Problem Statement:**  
+Given a string `s`, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.  
+
+**Example:**  
+
+Input: `s = "abab"`  
+Output: `true`  
+Explanation: It is the substring `"ab"` twice.  
+
+Input: `s = "aba"`  
+Output: `false`  
+
+Input: `s = "abcabcabcabc"`  
+Output: `true`  
+Explanation: It is the substring `"abc"` four times or the substring `"abcabc"` twice.  
+
+**Constraints:**  
+- `1 <= s.length <= 10^4`  
+- `s` consists of lowercase English letters.  
+
+**Hints:**  
+1. Consider concatenating `s` with itself and removing the first and last character.  
+2. Check if `s` exists as a substring within this new string.  
+
+[📂 Solution](0459.java)  
+
+[⬆️ Go to top](#top)  
+
+---
 
 
 
