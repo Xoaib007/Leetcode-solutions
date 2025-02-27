@@ -11,10 +11,15 @@ This folder contains my solutions for **Medium** LeetCode problems. Each problem
    javac 0001.java && java TwoSum
 Modify and test with your own input.
 
+</br>
+
 |   | # | Problem | Solution |
 |---|---|---------|----------|
-| 1  | 1  | [Two Sum](#-two-sum)  | [➔](Solutions/0001.java) |
+| 1  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
 
+</br>
+
+## 📝 Problem Descriptions
 
 ### ✅ Robot Bounded In Circle  
 **Difficulty:** 🟠 Medium  
