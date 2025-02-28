@@ -1,43 +1,26 @@
-/******************************************************************************
-
-Can Make Arithmetic Progression From Sequence
----------------------------------------------
-
-A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same.
-
-Given an array of numbers arr, return true if the array can be rearranged to form an arithmetic progression. Otherwise, return false.
-
- 
-
-Example 1:
-
-Input: arr = [3,5,1]
-Output: true
-Explanation: We can reorder the elements as [1,3,5] or [5,3,1] with differences 2 and -2 respectively, between each consecutive elements.
-Example 2:
-
-Input: arr = [1,2,4]
-Output: false
-Explanation: There is no way to reorder the elements to obtain an arithmetic progression.
- 
-
-*******************************************************************************/
-
 import java.util.Arrays;
 
 class Solution {
+    /**
+     * Determines if an array can be rearranged to form an arithmetic progression.
+     * 
+     * An arithmetic progression has a constant difference between consecutive elements.
+     *
+     * @param arr The integer array to check.
+     * @return    True if the array can be arranged as an arithmetic progression, otherwise false.
+     */
     public boolean canMakeArithmeticProgression(int[] arr) {
-        Arrays.sort(arr);
+        Arrays.sort(arr); // Sort the array to check for a common difference
 
-        int diff = arr[1] - arr[0];
+        int diff = arr[1] - arr[0]; // Calculate the common difference
         boolean isArithmeticProgression = false;
 
-        for(int i = 0; i < arr.length - 1; i++){
-            if(arr[i + 1] - arr[i] == diff){
-                isArithmeticProgression = true;
-            } 
-            else{
-                isArithmeticProgression = false;
+        // Check if the difference between consecutive elements is constant
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (arr[i + 1] - arr[i] == diff) {
+                isArithmeticProgression = true; // Valid sequence so far
+            } else {
+                isArithmeticProgression = false; // Difference mismatch, not an arithmetic progression
                 break;
             }
         }
