@@ -41,9 +41,12 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 26 | 1342 | [Number of Steps to Reduce a Number to Zero](#-number-of-steps-to-reduce-a-number-to-zero)  | [➔](Solutions/1342.java) |
 | 27 | 1480 | [Running Sum of 1d Array](#-running-sum-of-1d-array)  | [➔](Solutions/1480.java) |
 | 28 | 1502 | [Can Make Arithmetic Progression From Sequence](#-can-make-arithmetic-progression-from-sequence)  | [➔](Solutions/1502.java) |
-| 29 | 1672 | [Richest Customer Wealth](#-richest-customer-wealth)  | [➔](Solutions/1672.java) |
-| 30 | 1768 | [Merge Strings Alternately](#-merge-strings-alternately)  | [➔](Solutions/1768.java) |
-| 31 | 1822 | [Sign of the Product of an Array](#-sign-of-the-product-of-an-array)  | [➔](Solutions/1822.java) |
+| 29 | 1523 | [Count Odd Numbers in an Interval Range](#-count-odd-numbers-in-an-interval-range)  | [➔](Solutions/1523.java) |
+| 30 | 1572 | [Matrix Diagonal Sum](#-matrix-diagonal-sum)  | [➔](Solutions/1572.java) |
+| 31 | 1672 | [Richest Customer Wealth](#-richest-customer-wealth)  | [➔](Solutions/1672.java) |
+| 32 | 1768 | [Merge Strings Alternately](#-merge-strings-alternately)  | [➔](Solutions/1768.java) |
+| 33 | 1822 | [Sign of the Product of an Array](#-sign-of-the-product-of-an-array)  | [➔](Solutions/1822.java) |
+
 
 
 ## 📝 Problem Descriptions
