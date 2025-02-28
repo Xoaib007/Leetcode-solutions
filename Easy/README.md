@@ -13,8 +13,8 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 
 |   | # | Problem | Solution |  |
 |---|---|---------|----------|--|
-| 1  | 1  | [Two Sum](#-two-sum)  | [➔](Solutions/0001.java) |  |
-| 2  | 9  | [Palindrome Number](#-palindrome-number)  | [➔](Solutions/0009.java) |  |
+| 1  | 1  | [Two Sum](#-two-sum)  | [➔](Solutions/0001.java) | ✔ |
+| 2  | 9  | [Palindrome Number](#-palindrome-number)  | [➔](Solutions/0009.java) | ✔ |
 | 3  | 13 | [Roman to Integer](#-roman-to-integer)  | [➔](Solutions/0013.java) |  |
 | 4  | 14 | [Longest Common Prefix](#-longest-common-prefix)  | [➔](Solutions/0014.java) |  |
 | 5  | 20 | [Valid Parentheses](#-valid-parentheses)  | [➔](Solutions/0020.java) |  |
