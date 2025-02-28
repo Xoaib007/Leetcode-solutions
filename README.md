@@ -34,8 +34,8 @@ LeetCode-Solutions/
 ## 📖 How to Use
 
 1. **Navigate by Difficulty**
-   - 🟢 [Easy Problems](Easy)
-   - 🟠 [Medium Problems](Medium)
+   - 🟢 [Easy Problems (33)](Easy)
+   - 🟠 [Medium Problems (2)](Medium)
    - 🔴 [Hard Problems](Hard)
 
 2. **Find a Specific Problem**
