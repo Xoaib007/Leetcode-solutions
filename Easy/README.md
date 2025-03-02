@@ -82,7 +82,7 @@ Output: `[0,1]`
 2. So, if we fix one of the numbers, say `x`, we have to scan the entire array to find the next number `y` which is `target - x`. Can we change our array somehow so that this search becomes faster?  
 3. The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?  
 
-[📂 Solution](0001.java)
+[📂 Solution](Solutions/0001.java)
 
 [⬆️ Go to top](#top)
 
@@ -114,7 +114,7 @@ Explanation: Reads `01` from right to left. Therefore, it is not a palindrome.
 **Hints:**  
 1. Beware of overflow when you reverse the integer.  
 
-[📂 Solution](0009.java)
+[📂 Solution](Solutions/0009.java)
 
 [⬆️ Go to top](#top)
 
@@ -168,7 +168,7 @@ Explanation: `M = 1000`, `CM = 900`, `XC = 90` and `IV = 4`.
 **Hints:**  
 1. The problem is simpler to solve by working through the string from back to front and using a map.  
 
-[📂 Solution](0013.java)
+[📂 Solution](Solutions/0013.java)
 
 [⬆️ Go to top](#top)  
 
@@ -199,7 +199,7 @@ Explanation: There is no common prefix among the input strings.
 2. The **vertical scanning** method compares each character position across all words.  
 3. A **binary search** method can be used to find the longest prefix efficiently.  
 
-[📂 Solution](0014.java)  
+[📂 Solution](Solutions/0014.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -238,7 +238,7 @@ Output: `true`
 2. When encountering an **opening bracket**, push it onto the stack.  
 3. When encountering a **closing bracket**, check if it matches the **top of the stack**. If it does, pop the stack; otherwise, return `false`.  
 
-[📂 Solution](0020.java)  
+[📂 Solution](Solutions/0020.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -277,7 +277,7 @@ Explanation: Your function should return `k = 5`, with the first five elements o
 2. We need to modify the array in-place, so a two-pointer approach is useful: one pointer to track the current element in the original array and another for unique elements.  
 3. Once an element is encountered, bypass its duplicates and move to the next unique element.  
 
-[📂 Solution](0026.java) 
+[📂 Solution](Solutions/0026.java) 
 
 [⬆️ Go to top](#top)
 
@@ -319,7 +319,7 @@ It does not matter what you leave beyond the returned `k` (hence they are unders
 </br><img src="https://github.com/user-attachments/assets/990e3ed1-bf53-4b1d-b4ca-3053aaf626d1" alt="drawing" width="400" align='center'/></br>
 3. Another approach is to copy the non-`val` elements in-place in a single pass.  
 
-[📂 Solution](0027.java)  
+[📂 Solution](Solutions/0027.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -346,7 +346,7 @@ Explanation: `"leeto"` did not occur in `"leetcode"`, so we return `-1`.
 - `1 <= haystack.length, needle.length <= 10^4`  
 - `haystack` and `needle` consist of only lowercase English characters.  
 
-[📂 Solution](0028.java)  
+[📂 Solution](Solutions/0028.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -378,7 +378,7 @@ Output: `4`
 - `nums` contains **distinct** values sorted in **ascending order**.  
 - `-10^4 <= target <= 10^4`  
 
-[📂 Solution](0035.java)  
+[📂 Solution](Solutions/0035.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -411,7 +411,7 @@ Explanation: The last word is `"joyboy"` with length `6`.
 - `s` consists of only **English letters** and **spaces (' ')**.  
 - There will be at least **one word** in `s`.  
 
-[📂 Solution](0058.java)  
+[📂 Solution](Solutions/0058.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -450,7 +450,7 @@ Thus, the result should be `[1,0]`.
 - `0 <= digits[i] <= 9`  
 - `digits` does **not** contain any leading `0`s.  
 
-[📂 Solution](0066.java)  
+[📂 Solution](Solutions/0066.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -475,7 +475,7 @@ Output: `"10101"`
 - `a` and `b` consist only of `'0'` or `'1'` characters.  
 - Each string does not contain **leading zeros** except for the zero itself.  
 
-[📂 Solution](0067.java)  
+[📂 Solution](Solutions/0067.java)  
  
 [⬆️ Go to top](#top)  
 
@@ -507,7 +507,7 @@ Explanation: The square root of 8 is `2.82842...`, and since we round it **down*
 1. Try **exploring all integers**.  
 2. Use the **sorted property** of integers to reduce the search space (consider binary search).  
 
-[📂 Solution](0069.java)  
+[📂 Solution](Solutions/0069.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -542,7 +542,7 @@ Explanation: There are three ways to climb to the top:
 1. To reach the `n`th step, you must have come from either `(n-1)`th step (1 step) or `(n-2)`th step (2 steps).  
 2. This forms a **Fibonacci sequence** where `f(n) = f(n-1) + f(n-2)`, with base cases `f(1) = 1`, `f(2) = 2`.  
 
-[📂 Solution](0070.java)  
+[📂 Solution](Solutions/0070.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -568,7 +568,7 @@ Output: `false`
 **Follow-up:**  
 - What if the inputs contain **Unicode characters**? How would you adapt your solution to handle this case?  
 
-[📂 Solution](0242.java)  
+[📂 Solution](Solutions/0242.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -598,7 +598,7 @@ Output: `[0]`
 1. **In-place** means we **cannot** allocate extra space. But as a first step, try solving it using an **additional array**, then work on optimizing it.  
 2. A **two-pointer** approach can be useful. One pointer iterates through the array, while the other keeps track of the position to place the next non-zero element.  
 
-[📂 Solution](0283.java)  
+[📂 Solution](Solutions/0283.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -631,7 +631,7 @@ Output: `true`
 2. Use a hash map (or an array of size 26) to track available letters.  
 3. If any letter in `ransomNote` exceeds its count in `magazine`, return `false`.  
 
-[📂 Solution](0383.java)  
+[📂 Solution](Solutions/0383.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -664,7 +664,7 @@ Output: `"y"`
 1. Use frequency counting (hash map or array of size 26).  
 2. XOR all characters from both `s` and `t`, the result will be the extra letter.  
 
-[📂 Solution](0389.java)  
+[📂 Solution](Solutions/0389.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -698,7 +698,7 @@ Output: `["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13
 1. Loop from `1` to `n` and check divisibility conditions.  
 2. Use `if-else` statements to construct the result dynamically.  
 
-[📂 Solution](0412.java)  
+[📂 Solution](Solutions/0412.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -730,7 +730,7 @@ Explanation: It is the substring `"abc"` four times or the substring `"abcabc"` 
 1. Consider concatenating `s` with itself and removing the first and last character.  
 2. Check if `s` exists as a substring within this new string.  
 
-[📂 Solution](0459.java)  
+[📂 Solution](Solutions/0459.java)  
 
 [⬆️ Go to top](#top)  
 
