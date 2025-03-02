@@ -15,12 +15,42 @@ Modify and test with your own input.
 
 |   | # | Problem | Solution |
 |---|---|---------|----------|
-| 1  | 73 | [Set Matrix Zeroes](#-set-matrix-zeroes) | [➔](Solutions/0073.java) |
-| 2  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
+| 1  | 43 | [Multiply Strings](#-multiply-strings) | [➔](Solutions/0043.java) |
+| 2  | 73 | [Set Matrix Zeroes](#-set-matrix-zeroes) | [➔](Solutions/0073.java) |
+| 3  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
 
 </br>
 
 ## 📝 Problem Descriptions
+
+### ✅ Multiply Strings  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+Given two non-negative integers `num1` and `num2` represented as strings, return their product as a string.  
+
+**Note:**  
+- You **must not** use any built-in BigInteger library.  
+- You **cannot** convert the inputs to integers directly.  
+
+**Example:**  
+
+**Input:**  num1 = `"2", num2 = "3"`   
+**Output:**  `"6"`
+
+**Input:**  num1 = `"123", num2 = "456"`   
+**Output:**  `"56088"`
+
+**Constraints:**  
+- `1 <= num1.length, num2.length <= 200`  
+- `num1` and `num2` consist of **digits only**.  
+- Both `num1` and `num2` do **not** contain leading zeros, except for `"0"` itself.  
+
+[📂 Solution](0043.java)  
+
+[⬆️ Go to top](#top)  
+
+---
 
 ### ✅ Robot Bounded In Circle  
 **Difficulty:** 🟠 Medium  
