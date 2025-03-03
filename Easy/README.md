@@ -33,8 +33,8 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 18 | 389 | [Find the Difference](#-find-the-difference)  | [➔](Solutions/0389.java) | ✔ |
 | 19 | 412 | [Fizz Buzz](#-fizz-buzz)  | [➔](Solutions/0412.java) | ✔ |
 | 20 | 459 | [Repeated Substring Pattern](#-repeated-substring-pattern)  | [➔](Solutions/0459.java) | ✔ |
-| 21 | 509 | [Fibonacci Number](#-fibonacci-number)  | [➔](Solutions/0509.java) |  |
-| 22 | 657 | [Robot Return to Origin](#-robot-return-to-origin)  | [➔](Solutions/0657.java) |  |
+| 21 | 509 | [Fibonacci Number](#-fibonacci-number)  | [➔](Solutions/0509.java) | ✔ |
+| 22 | 657 | [Robot Return to Origin](#-robot-return-to-origin)  | [➔](Solutions/0657.java) | ✔ |
 | 23 | 682 | [Baseball Game](#-baseball-game)  | [➔](Solutions/0682.java) |  |
 | 24 | 709 | [To Lower Case](#-to-lower-case)  | [➔](Solutions/0709.java) |  |
 | 25 | 860 | [Lemonade Change](#-lemonade-change)  | [➔](Solutions/0860.java) |  |
@@ -741,6 +741,88 @@ Explanation: It is the substring `"abc"` four times or the substring `"abcabc"` 
 [⬆️ Go to top](#top)  
 
 ---
+
+### ✅ Fibonacci Number  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+The Fibonacci numbers, commonly denoted `F(n)`, form a sequence called the Fibonacci sequence, where each number is the sum of the two preceding ones, starting from `0` and `1`. That is:  
+
+- `F(0) = 0`, `F(1) = 1`  
+- `F(n) = F(n - 1) + F(n - 2)`, for `n > 1`.  
+
+Given an integer `n`, return `F(n)`.  
+
+**Example:**  
+
+Input: `n = 2`  
+Output: `1`  
+Explanation: `F(2) = F(1) + F(0) = 1 + 0 = 1`.  
+
+Input: `n = 3`  
+Output: `2`  
+Explanation: `F(3) = F(2) + F(1) = 1 + 1 = 2`.  
+
+Input: `n = 4`  
+Output: `3`  
+Explanation: `F(4) = F(3) + F(2) = 2 + 1 = 3`.  
+
+**Constraints:**  
+- `0 <= n <= 30`  
+
+**Hints:**  
+1. Consider using recursion for a direct implementation.  
+2. Iterative or memoization-based solutions can optimize performance.  
+
+[📂 Solution](Solutions/0509.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Robot Return to Origin  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+There is a robot starting at position `(0, 0)`, the origin, on a 2D plane. Given a sequence of its moves, determine if the robot ends up at `(0, 0)` after completing all moves.  
+
+You are given a string `moves` where `moves[i]` represents the `i`-th move. The valid moves are:  
+- `'R'` (right)  
+- `'L'` (left)  
+- `'U'` (up)  
+- `'D'` (down)  
+
+Return `true` if the robot returns to the origin after finishing all moves, or `false` otherwise.  
+
+**Note:**  
+- The direction the robot is "facing" is irrelevant.  
+- Each move has the same magnitude.  
+
+**Example:**  
+
+Input: `moves = "UD"`  
+Output: `true`  
+Explanation: The robot moves up once, then down once. Since all moves have equal magnitude, it returns to the origin `(0, 0)`.  
+
+Input: `moves = "LL"`  
+Output: `false`  
+Explanation: The robot moves left twice, ending up two moves to the left of the origin. Since it is not at `(0, 0)`, we return `false`.  
+
+**Constraints:**  
+- `1 <= moves.length <= 2 * 10^4`  
+- `moves` contains only the characters `'U'`, `'D'`, `'L'`, and `'R'`.  
+
+**Hints:**  
+1. Consider tracking the net displacement along the x-axis (`'L'` vs. `'R'`) and y-axis (`'U'` vs. `'D'`).  
+2. If both net displacements are zero, the robot returns to the origin.  
+
+[📂 Solution](Solutions/0657.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+
 
 
 
