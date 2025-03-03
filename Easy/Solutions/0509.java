@@ -12,14 +12,14 @@ class Solution {
 
         // Variables to store the last two Fibonacci numbers
         int nthElement = 0;       // Stores the nth Fibonacci number
-        int lastElement = 0;      // Stores (n-2)th Fibonacci number
-        int secondLastElement = 1; // Stores (n-1)th Fibonacci number
+        int lastElement = 1; // Stores (n-1)th Fibonacci number
+        int secondLastElement = 0;      // Stores (n-2)th Fibonacci number
 
         // Compute Fibonacci iteratively from index 2 to n
         for (int i = 2; i <= n; i++) {
             nthElement = lastElement + secondLastElement; // Compute the next Fibonacci number
-            lastElement = secondLastElement; // Shift (n-2)th to (n-1)th
-            secondLastElement = nthElement; // Shift (n-1)th to nth
+            lastElement = nthElement; // Shift (n-2)th to (n-1)th
+            secondLastElement = lastElement; // Shift (n-1)th to nth
         }
 
         return nthElement; // Return the nth Fibonacci number
