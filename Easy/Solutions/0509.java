@@ -18,8 +18,8 @@ class Solution {
         // Compute Fibonacci iteratively from index 2 to n
         for (int i = 2; i <= n; i++) {
             nthElement = lastElement + secondLastElement; // Compute the next Fibonacci number
-            lastElement = nthElement; // Shift (n-2)th to (n-1)th
             secondLastElement = lastElement; // Shift (n-1)th to nth
+            lastElement = nthElement; // Shift (n-2)th to (n-1)th
         }
 
         return nthElement; // Return the nth Fibonacci number
