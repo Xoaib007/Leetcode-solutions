@@ -127,7 +127,7 @@ You must do it **in place** without using extra space.
 ---
 
 ### 🔷 Check if Number is a Sum of Powers of Three  
-**Difficulty:** 🔵 Medium  
+**Difficulty:** 🟠 Medium  
 
 **Problem Statement:**  
 Given an integer `n`, return `true` if it is possible to represent `n` as the sum of distinct powers of three. Otherwise, return `false`.  
