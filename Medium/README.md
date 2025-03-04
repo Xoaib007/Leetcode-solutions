@@ -18,6 +18,7 @@ Modify and test with your own input.
 | 1  | 43 | [Multiply Strings](#-multiply-strings) | [➔](Solutions/0043.java) |
 | 2  | 73 | [Set Matrix Zeroes](#-set-matrix-zeroes) | [➔](Solutions/0073.java) |
 | 3  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
+| 4  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
 
 </br>
 
@@ -124,6 +125,41 @@ You must do it **in place** without using extra space.
 [⬆️ Go to top](#top)  
 
 ---
+
+### 🔷 Check if Number is a Sum of Powers of Three  
+**Difficulty:** 🔵 Medium  
+
+**Problem Statement:**  
+Given an integer `n`, return `true` if it is possible to represent `n` as the sum of distinct powers of three. Otherwise, return `false`.  
+
+An integer `y` is a power of three if there exists an integer `x` such that `y == 3^x`.  
+
+**Example:**  
+
+Input: `n = 12`  
+Output: `true`  
+Explanation: `12 = 3^1 + 3^2`  
+
+Input: `n = 91`  
+Output: `true`  
+Explanation: `91 = 3^0 + 3^2 + 3^4`  
+
+Input: `n = 21`  
+Output: `false`  
+
+**Constraints:**  
+- `1 <= n <= 10^7`  
+
+**Hints:**  
+1. The maximum power of `3` needed in the solution is `3^16`.  
+2. A number cannot be represented as a sum of distinct powers of `3` if its ternary representation contains a `2`.  
+
+[📂 Solution](sum_of_powers_of_three.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 
 
 
