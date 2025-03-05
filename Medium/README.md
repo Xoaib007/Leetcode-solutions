@@ -19,7 +19,9 @@ Modify and test with your own input.
 | 2  | 73 | [Set Matrix Zeroes](#-set-matrix-zeroes) | [➔](Solutions/0073.java) |
 | 3  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
 | 4  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
-| 5  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
+| 5  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
+| 6  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
+
 
 </br>
 
@@ -160,6 +162,52 @@ Output: `false`
 [⬆️ Go to top](#top)  
 
 ---
+
+### 🔷 Partition Array According to Given Pivot  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+You are given a `0`-indexed integer array `nums` and an integer `pivot`. Rearrange `nums` such that the following conditions are satisfied:  
+
+1. Every element **less than** `pivot` appears **before** every element **greater than** `pivot`.  
+2. Every element **equal to** `pivot` appears **in between** the elements less than and greater than `pivot`.  
+3. The **relative order** of the elements less than `pivot` and the elements greater than `pivot` is **maintained**.  
+
+More formally, consider every `pi`, `pj` where `pi` is the new position of the `i`-th element and `pj` is the new position of the `j`-th element. If `i < j` and both elements are smaller (or larger) than `pivot`, then `pi < pj`.  
+
+Return `nums` after the rearrangement.  
+
+**Example:**  
+
+Input: `nums = [9,12,5,10,14,3,10]`, `pivot = 10`  
+Output: `[9,5,3,10,10,12,14]`  
+Explanation:  
+- The elements `{9, 5, 3}` are **less than** `pivot` and appear on the **left**.  
+- The elements `{12, 14}` are **greater than** `pivot` and appear on the **right**.  
+- The relative ordering of `{9, 5, 3}` and `{12, 14}` is preserved.  
+
+Input: `nums = [-3,4,3,2]`, `pivot = 2`  
+Output: `[-3,2,4,3]`  
+Explanation:  
+- The element `-3` is **less than** `pivot` and appears on the **left**.  
+- The elements `{4, 3}` are **greater than** `pivot` and appear on the **right**.  
+- The relative ordering of `[-3]` and `[4, 3]` is maintained.  
+
+**Constraints:**  
+- `1 <= nums.length <= 10^5`  
+- `-10^6 <= nums[i] <= 10^6`  
+- `pivot` is guaranteed to be an element of `nums`.  
+
+**Hints:**  
+1. Can you store the elements **smaller** than `pivot` and **greater** than `pivot` in separate lists while maintaining order?  
+2. Once you have the separate lists, can you concatenate them to get the final result?  
+
+[📂 Solution](Solutions/2161.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 
 ### 🔷 Count Total Number of Colored Cells  
 **Difficulty:** 🟠 Medium  
