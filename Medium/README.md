@@ -48,7 +48,7 @@ Given two non-negative integers `num1` and `num2` represented as strings, return
 - `num1` and `num2` consist of **digits only**.  
 - Both `num1` and `num2` do **not** contain leading zeros, except for `"0"` itself.  
 
-[📂 Solution](0043.java)  
+[📂 Solution](Solutions/0043.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -87,7 +87,7 @@ The robot executes the given instructions repeatedly. Return `true` if the robot
 1. Track the final position and direction after one execution of instructions.  
 2. The robot is bounded if it changes direction or returns to `(0,0)`.  
 
-[📂 Solution](1041.java)  
+[📂 Solution](Solutions/1041.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -121,7 +121,7 @@ You must do it **in place** without using extra space.
 3. Instead of extra memory, use the first row and column to store flags.  
 4. The first cell of each row/column can indicate if it should be zeroed.  
 
-[📂 Solution](0073.java)  
+[📂 Solution](Solutions/0073.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -155,7 +155,7 @@ Output: `false`
 1. The maximum power of `3` needed in the solution is `3^16`.  
 2. A number cannot be represented as a sum of distinct powers of `3` if its ternary representation contains a `2`.  
 
-[📂 Solution](sum_of_powers_of_three.java)  
+[📂 Solution](Solutions/1780.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -191,7 +191,7 @@ Explanation: `After 2 minutes, there are 4 colored cells on the boundary and 1 i
 1. Observe the pattern of expansion in each step.  
 2. Consider deriving a formula based on the number of cells added per minute.  
 
-[📂 Solution](count_colored_cells.java)  
+[📂 Solution](Solutions/2579.java)  
 
 [⬆️ Go to top](#top)  
 
