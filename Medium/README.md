@@ -161,6 +161,43 @@ Output: `false`
 
 ---
 
+### 🔷 Count Total Number of Colored Cells  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+There exists an infinitely large two-dimensional grid of uncolored unit cells. You are given a positive integer `n`, indicating that you must perform the following routine for `n` minutes:  
+
+1. At the first minute, color any arbitrary unit cell blue.  
+2. Every minute thereafter, color blue every uncolored cell that touches a blue cell.  
+
+Below is a pictorial representation of the state of the grid after minutes `1`, `2`, and `3`.
+</br><img src="https://github.com/user-attachments/assets/6dd7879a-ab01-4de8-be48-3cb8cb4d3310" alt="drawing" width="400" align='center'/></br>
+
+**Example:**  
+
+Input: `n = 1`   
+Output: `1`   
+Explanation: `After 1 minute, there is only 1 blue cell, so we return 1.`  
+
+Input: `n = 2`  
+Output: `5`  
+Explanation: `After 2 minutes, there are 4 colored cells on the boundary and 1 in the center, so we return 5. `  
+ 
+
+**Constraints:**  
+- `1 <= n <= 10^4`  
+
+**Hints:**  
+1. Observe the pattern of expansion in each step.  
+2. Consider deriving a formula based on the number of cells added per minute.  
+
+[📂 Solution](count_colored_cells.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+
 
 
 
