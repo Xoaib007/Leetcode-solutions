@@ -926,6 +926,45 @@ Output: `"lovely"`
 
 ---
 
+### ✅ Lemonade Change  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+At a lemonade stand, each lemonade costs **$5**. Customers queue up and order **one at a time**, paying with either a **$5, $10, or $20 bill**. You must **provide the correct change** for each customer so that the net transaction equals $5.  
+
+You **start with no change** in hand.  
+
+Given an integer array `bills`, where `bills[i]` is the bill the `i-th` customer pays, return `true` if you can provide **every customer** with the correct change, otherwise return `false`.  
+
+**Example:**  
+
+Input: `bills = [5,5,5,10,20]`  
+Output: `true`  
+Explanation:  
+- Collect three **$5 bills** from the first three customers.  
+- The fourth customer pays **$10**, give back **$5**.  
+- The fifth customer pays **$20**, give back **$10** and **$5**.  
+- Since every customer received correct change, return `true`.  
+
+Input: `bills = [5,5,10,10,20]`  
+Output: `false`  
+Explanation:  
+- Collect two **$5 bills** from the first two customers.  
+- The next two customers pay **$10**, giving back **$5** each time.  
+- The last customer pays **$20**, but we only have **two $10 bills**, so we **cannot** provide correct change.  
+- Return `false`.  
+
+**Constraints:**  
+- `1 <= bills.length <= 10^5`  
+- `bills[i]` is either `5`, `10`, or `20`.  
+
+[📂 Solution](lemonade_change.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+
 
 
 
