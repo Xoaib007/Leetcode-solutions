@@ -51,7 +51,8 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 36 | 1672 | [Richest Customer Wealth](#-richest-customer-wealth)  | [➔](Solutions/1672.java) |  |
 | 37 | 1768 | [Merge Strings Alternately](#-merge-strings-alternately)  | [➔](Solutions/1768.java) |  |
 | 38 | 1822 | [Sign of the Product of an Array](#-sign-of-the-product-of-an-array)  | [➔](Solutions/1822.java) |  |
-| 39 | 3467 | [Transform Array by Parity](#-transform-array-by-parity)  | [➔](Solutions/3467.java) |  |
+| 39 | 2965 | [Find Missing and Repeated Values](#-find-missing-and-repeated-values)  | [➔](Solutions/2965.java) |  |
+| 40 | 3467 | [Transform Array by Parity](#-transform-array-by-parity)  | [➔](Solutions/3467.java) |  |
 
 
 ## 📝 Problem Descriptions
