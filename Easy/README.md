@@ -780,6 +780,50 @@ Explanation: `F(4) = F(3) + F(2) = 2 + 1 = 3`.
 
 ---
 
+### ✅ Find Missing and Repeated Values  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+You are given a `0`-indexed `n x n` integer matrix `grid` with values in the range `[1, n^2]`. Each integer appears exactly once **except**:  
+- One number `a` appears **twice**.  
+- One number `b` is **missing**.  
+
+Your task is to find and return these two numbers.  
+
+Return a `0`-indexed integer array `ans` of size `2`, where:  
+- `ans[0]` is the **repeated number** `a`.  
+- `ans[1]` is the **missing number** `b`.  
+
+**Example:**  
+
+Input: `grid = [[1,3],[2,2]]`  
+Output: `[2,4]`  
+Explanation:  
+- The number `2` appears **twice**.  
+- The number `4` is **missing**.  
+
+Input: `grid = [[9,1,7],[8,9,2],[3,4,6]]`  
+Output: `[9,5]`  
+Explanation:  
+- The number `9` appears **twice**.  
+- The number `5` is **missing**.  
+
+**Constraints:**  
+- `2 <= n == grid.length == grid[i].length <= 50`  
+- `1 <= grid[i][j] <= n^2`  
+- Exactly **one** number is repeated twice.  
+- Exactly **one** number is missing.  
+
+**Hints:**  
+1. Use a frequency array or set to track occurrences of each number.  
+2. The sum of numbers from `1` to `n^2` can help in finding the missing number.  
+
+[📂 Solution](Solutions/2965.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 ### ✅ Robot Return to Origin  
 **Difficulty:** 🟢 Easy  
 
