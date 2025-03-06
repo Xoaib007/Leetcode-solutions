@@ -781,50 +781,6 @@ Explanation: `F(4) = F(3) + F(2) = 2 + 1 = 3`.
 
 ---
 
-### ✅ Find Missing and Repeated Values  
-**Difficulty:** 🟢 Easy  
-
-**Problem Statement:**  
-You are given a `0`-indexed `n x n` integer matrix `grid` with values in the range `[1, n^2]`. Each integer appears exactly once **except**:  
-- One number `a` appears **twice**.  
-- One number `b` is **missing**.  
-
-Your task is to find and return these two numbers.  
-
-Return a `0`-indexed integer array `ans` of size `2`, where:  
-- `ans[0]` is the **repeated number** `a`.  
-- `ans[1]` is the **missing number** `b`.  
-
-**Example:**  
-
-Input: `grid = [[1,3],[2,2]]`  
-Output: `[2,4]`  
-Explanation:  
-- The number `2` appears **twice**.  
-- The number `4` is **missing**.  
-
-Input: `grid = [[9,1,7],[8,9,2],[3,4,6]]`  
-Output: `[9,5]`  
-Explanation:  
-- The number `9` appears **twice**.  
-- The number `5` is **missing**.  
-
-**Constraints:**  
-- `2 <= n == grid.length == grid[i].length <= 50`  
-- `1 <= grid[i][j] <= n^2`  
-- Exactly **one** number is repeated twice.  
-- Exactly **one** number is missing.  
-
-**Hints:**  
-1. Use a frequency array or set to track occurrences of each number.  
-2. The sum of numbers from `1` to `n^2` can help in finding the missing number.  
-
-[📂 Solution](Solutions/2965.java)  
-
-[⬆️ Go to top](#top)  
-
----
-
 ### ✅ Robot Return to Origin  
 **Difficulty:** 🟢 Easy  
 
@@ -866,6 +822,78 @@ Explanation: The robot moves left twice, ending up two moves to the left of the 
 [⬆️ Go to top](#top)  
 
 ---
+
+### ✅ Baseball Game  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.  
+
+You are given a list of strings `operations`, where `operations[i]` is the `i-th` operation you must apply to the record. The operations are:  
+
+1. **An integer `x`** → Record a new score of `x`.  
+2. **'+'** → Record a new score that is the **sum** of the previous two scores.  
+3. **'D'** → Record a new score that is **double** the previous score.  
+4. **'C'** → Invalidate the previous score, **removing it** from the record.  
+
+Return the **sum of all scores** on the record after applying all operations.  
+
+**Example:**  
+
+Input: `ops = ["5","2","C","D","+"]`  
+Output: `30`  
+Explanation:  
+```
+"5" → Add 5 to the record → [5]  
+"2" → Add 2 to the record → [5, 2]  
+"C" → Remove previous score → [5]  
+"D" → Double the previous score (5 * 2 = 10) → [5, 10]  
+"+" → Sum last two scores (5 + 10 = 15) → [5, 10, 15]  
+Total sum: 5 + 10 + 15 = 30  
+```
+
+Input: `ops = ["5","-2","4","C","D","9","+","+"]`  
+Output: `27`  
+Explanation:  
+```
+"5" → [5]  
+"-2" → [5, -2]  
+"4" → [5, -2, 4]  
+"C" → Remove previous score → [5, -2]  
+"D" → Double previous score (-2 * 2 = -4) → [5, -2, -4]  
+"9" → [5, -2, -4, 9]  
+"+" → Sum last two scores (-4 + 9 = 5) → [5, -2, -4, 9, 5]  
+"+" → Sum last two scores (9 + 5 = 14) → [5, -2, -4, 9, 5, 14]  
+Total sum: 5 + (-2) + (-4) + 9 + 5 + 14 = 27  
+```
+
+Input: `ops = ["1","C"]`  
+Output: `0`  
+Explanation:  
+```
+"1" → [1]  
+"C" → Remove previous score → []  
+Total sum: 0  
+```
+
+**Constraints:**  
+- `1 <= operations.length <= 1000`  
+- `operations[i]` is `"C"`, `"D"`, `"+"`, or an integer in the range `[-30,000, 30,000]`.  
+- For operation `"+"`, there will always be **at least two** previous scores on the record.  
+- For operations `"C"` and `"D"`, there will always be **at least one** previous score on the record.  
+
+**Hints:**  
+1. Use a **stack** to keep track of valid scores.  
+2. For `"+"`, access the last two elements of the stack.  
+3. For `"D"`, access the last element of the stack.  
+4. For `"C"`, remove the last element of the stack.  
+
+[📂 Solution](baseball_game.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 
 
 
