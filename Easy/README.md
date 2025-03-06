@@ -35,8 +35,8 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 20 | 459 | [Repeated Substring Pattern](#-repeated-substring-pattern)  | [➔](Solutions/0459.java) | ✔ |
 | 21 | 509 | [Fibonacci Number](#-fibonacci-number)  | [➔](Solutions/0509.java) | ✔ |
 | 22 | 657 | [Robot Return to Origin](#-robot-return-to-origin)  | [➔](Solutions/0657.java) | ✔ |
-| 23 | 682 | [Baseball Game](#-baseball-game)  | [➔](Solutions/0682.java) |  |
-| 24 | 709 | [To Lower Case](#-to-lower-case)  | [➔](Solutions/0709.java) |  |
+| 23 | 682 | [Baseball Game](#-baseball-game)  | [➔](Solutions/0682.java) | ✔ |
+| 24 | 709 | [To Lower Case](#-to-lower-case)  | [➔](Solutions/0709.java) | ✔ |
 | 25 | 860 | [Lemonade Change](#-lemonade-change)  | [➔](Solutions/0860.java) |  |
 | 26 | 896 | [Monotonic Array](#-monotonic-array)  | [➔](Solutions/0896.java) |  |
 | 27 | 976 | [Largest Perimeter Triangle](#-largest-perimeter-triangle)  | [➔](Solutions/0976.java) |  |
@@ -889,6 +889,38 @@ Total sum: 0
 4. For `"C"`, remove the last element of the stack.  
 
 [📂 Solution](baseball_game.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ To Lower Case  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+Given a string `s`, return the string after replacing every **uppercase letter** with the **same lowercase letter**.  
+
+**Example:**  
+
+Input: `s = "Hello"`  
+Output: `"hello"`  
+
+Input: `s = "here"`  
+Output: `"here"`  
+
+Input: `s = "LOVELY"`  
+Output: `"lovely"`  
+
+**Constraints:**  
+- `1 <= s.length <= 100`  
+- `s` consists of **printable ASCII characters**.  
+
+**Hints:**  
+1. Most languages provide built-in functions for lowercase conversion, but try to implement it yourself.  
+2. Think about the **ASCII values** of uppercase and lowercase letters.  
+3. There is a **mathematical relationship** between uppercase (`A-Z`) and lowercase (`a-z`) letters.  
+
+[📂 Solution](to_lower_case.java)  
 
 [⬆️ Go to top](#top)  
 
