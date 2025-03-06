@@ -37,8 +37,8 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 22 | 657 | [Robot Return to Origin](#-robot-return-to-origin)  | [➔](Solutions/0657.java) | ✔ |
 | 23 | 682 | [Baseball Game](#-baseball-game)  | [➔](Solutions/0682.java) | ✔ |
 | 24 | 709 | [To Lower Case](#-to-lower-case)  | [➔](Solutions/0709.java) | ✔ |
-| 25 | 860 | [Lemonade Change](#-lemonade-change)  | [➔](Solutions/0860.java) |  |
-| 26 | 896 | [Monotonic Array](#-monotonic-array)  | [➔](Solutions/0896.java) |  |
+| 25 | 860 | [Lemonade Change](#-lemonade-change)  | [➔](Solutions/0860.java) | ✔ |
+| 26 | 896 | [Monotonic Array](#-monotonic-array)  | [➔](Solutions/0896.java) | ✔ |
 | 27 | 976 | [Largest Perimeter Triangle](#-largest-perimeter-triangle)  | [➔](Solutions/0976.java) |  |
 | 28 | 1232 | [Check If It Is a Straight Line](#-check-if-it-is-a-straight-line)  | [➔](Solutions/1232.java) |  |
 | 29 | 1275 | [Find Winner on a Tic Tac Toe Game](#-find-winner-on-a-tic-tac-toe-game)  | [➔](Solutions/1275.java) |  |
@@ -964,7 +964,37 @@ Explanation:
 
 ---
 
+### ✅ Monotonic Array  
+**Difficulty:** 🟢 Easy  
 
+**Problem Statement:**  
+An array is **monotonic** if it is either **monotone increasing** or **monotone decreasing**.  
+
+- An array `nums` is **monotone increasing** if for all `i <= j`, `nums[i] <= nums[j]`.  
+- An array `nums` is **monotone decreasing** if for all `i <= j`, `nums[i] >= nums[j]`.  
+
+Given an integer array `nums`, return `true` if the given array is **monotonic**, otherwise return `false`.  
+
+**Example:**  
+
+Input: `nums = [1,2,2,3]`  
+Output: `true`  
+
+Input: `nums = [6,5,4,4]`  
+Output: `true`  
+
+Input: `nums = [1,3,2]`  
+Output: `false`  
+
+**Constraints:**  
+- `1 <= nums.length <= 10^5`  
+- `-10^5 <= nums[i] <= 10^5`  
+
+[📂 Solution](monotonic_array.java)  
+
+[⬆️ Go to top](#top)  
+
+---
 
 
 
