@@ -20,7 +20,8 @@ Modify and test with your own input.
 | 3  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
 | 4  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
 | 5  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
-| 6  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
+| 6  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
+| 7  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
 
 
 </br>
