@@ -209,6 +209,45 @@ Explanation:
 
 ---
 
+### 🔷 Closest Prime Numbers in Range  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+Given two positive integers `left` and `right`, find two integers `num1` and `num2` such that:  
+
+1. `left <= num1 < num2 <= right`
+2. Both `num1` and `num2` are **prime numbers**.
+3. `num2 - num1` is the **minimum** among all other pairs satisfying the above conditions.  
+
+Return the array `ans = [num1, num2]`. If there are **multiple** pairs with the same minimum gap, return the one with the smallest `num1`. If no such pair exists, return `[-1, -1]`.  
+
+**Example:**  
+
+Input: `left = 10, right = 19`  
+Output: `[11,13]`  
+Explanation:  
+The prime numbers between `10` and `19` are `[11, 13, 17, 19]`.  
+The closest gap is `2`, which can be achieved by `[11,13]` or `[17,19]`.  
+Since `11` is the smallest starting number, we return `[11,13]`.  
+
+Input: `left = 4, right = 6`  
+Output: `[-1,-1]`  
+Explanation:  
+Only one prime (`5`) exists in the range, so no valid pair can be formed.  
+
+**Constraints:**  
+- `1 <= left <= right <= 10^6`  
+
+**Hints:**  
+1. Use the **Sieve of Eratosthenes** to efficiently find prime numbers.  
+2. Iterate through the primes in the given range to find the closest pair.  
+
+[📂 Solution](Solutions/2523.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 
 ### 🔷 Count Total Number of Colored Cells  
 **Difficulty:** 🟠 Medium  
