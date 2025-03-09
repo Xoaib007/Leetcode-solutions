@@ -326,13 +326,21 @@ There are 3 alternating groups of size 3 in the circle:
 Input: `colors = [0,1,0,0,1,0,1], k = 6`  
 Output: `2`  
 Explanation:  
+![image](https://github.com/user-attachments/assets/61862f92-20fe-4761-ac7e-17a080f9dd29)
+
 There are 2 alternating groups of size 6 in the circle:  
 - Group 1: `[0, 1, 0, 0, 1, 0]`
+
+![image](https://github.com/user-attachments/assets/6eb256d2-122f-4044-b0d7-f6a89d499f3e)
 - Group 2: `[1, 0, 1, 0, 0, 1]`
+![image](https://github.com/user-attachments/assets/e3acc0de-52c7-44e1-9df4-1f093b8e479d)
+
 
 Input: `colors = [1,1,0,1], k = 4`  
 Output: `0`  
 Explanation:  
+![image](https://github.com/user-attachments/assets/28a3f36f-4eb0-44f6-b201-4217f230065b)
+
 There are no alternating groups of size 4 in the circle.  
 
 **Constraints:**  
