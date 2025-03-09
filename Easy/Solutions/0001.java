@@ -20,3 +20,4 @@ class Solution {
         throw new IllegalArgumentException("No two sum solution");
     }
 }
+
