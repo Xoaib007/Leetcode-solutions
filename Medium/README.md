@@ -332,6 +332,7 @@ There are 2 alternating groups of size 6 in the circle:
 
 ![image](https://github.com/user-attachments/assets/6eb256d2-122f-4044-b0d7-f6a89d499f3e)
 - Group 2: `[1, 0, 1, 0, 0, 1]`
+
 ![image](https://github.com/user-attachments/assets/e3acc0de-52c7-44e1-9df4-1f093b8e479d)
 
 </br>
