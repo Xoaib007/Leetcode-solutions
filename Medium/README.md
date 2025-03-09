@@ -321,6 +321,7 @@ There are 3 alternating groups of size 3 in the circle:
 ![image](https://github.com/user-attachments/assets/c3aa7812-b5e9-4eb7-b8c7-2a0a5f50c4b7)  
 
 </br>
+
 Input: `colors = [0,1,0,0,1,0,1], k = 6`  
 Output: `2`  
 Explanation:  
@@ -334,6 +335,7 @@ There are 2 alternating groups of size 6 in the circle:
 ![image](https://github.com/user-attachments/assets/e3acc0de-52c7-44e1-9df4-1f093b8e479d)
 
 </br>
+
 Input: `colors = [1,1,0,1], k = 4`  
 Output: `0`  
 Explanation:  
