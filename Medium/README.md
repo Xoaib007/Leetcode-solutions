@@ -22,6 +22,7 @@ Modify and test with your own input.
 | 5  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
 | 6  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
 | 7  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
+| 8  | 3208 | [Alternating Groups II](#-alternating-groups-ii) | [➔](Solutions/3208.java) |
 
 
 </br>
@@ -280,6 +281,66 @@ Explanation: `After 2 minutes, there are 4 colored cells on the boundary and 1 i
 2. Consider deriving a formula based on the number of cells added per minute.  
 
 [📂 Solution](Solutions/2579.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### 🔶 Alternating Groups II  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+There is a circle of **red** and **blue** tiles. You are given an array `colors` and an integer `k`. The color of tile `i` is represented by `colors[i]`:  
+
+- `colors[i] == 0` means that tile `i` is **red**.
+- `colors[i] == 1` means that tile `i` is **blue**.  
+
+An **alternating group** is a contiguous subarray of `k` tiles in the circle where the tiles alternate in color (each tile in the group except the first and last one must have a different color from its left and right tiles).
+
+Return the number of alternating groups.  
+
+**Note:**  
+Since `colors` represents a **circle**, the first and last tiles are considered to be next to each other.  
+
+**Example:**  
+
+Input: `colors = [0,1,0,1,0], k = 3`  
+Output: `3`  
+Explanation:  
+![image](https://github.com/user-attachments/assets/734ee222-770a-4a96-ba19-ad1ad19093a8)
+
+There are 3 alternating groups of size 3 in the circle:  
+- Group 1: `[0, 1, 0]`
+
+![image](https://github.com/user-attachments/assets/5854d7ef-9303-452f-b655-ad2539624146)
+- Group 2: `[1, 0, 1]`
+
+![image](https://github.com/user-attachments/assets/80f2f2ee-7d7d-41fb-8ade-2ab761461092)
+- Group 3: `[0, 1, 0]`
+  
+![image](https://github.com/user-attachments/assets/c3aa7812-b5e9-4eb7-b8c7-2a0a5f50c4b7)
+
+  
+
+
+Input: `colors = [0,1,0,0,1,0,1], k = 6`  
+Output: `2`  
+Explanation:  
+There are 2 alternating groups of size 6 in the circle:  
+- Group 1: `[0, 1, 0, 0, 1, 0]`
+- Group 2: `[1, 0, 1, 0, 0, 1]`
+
+Input: `colors = [1,1,0,1], k = 4`  
+Output: `0`  
+Explanation:  
+There are no alternating groups of size 4 in the circle.  
+
+**Constraints:**  
+- `3 <= colors.length <= 10^5`  
+- `0 <= colors[i] <= 1`  
+- `3 <= k <= colors.length`  
+
+[📂 Solution](alternating_groups.java)  
 
 [⬆️ Go to top](#top)  
 
