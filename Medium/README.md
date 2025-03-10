@@ -23,6 +23,7 @@ Modify and test with your own input.
 | 6  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
 | 7  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
 | 8  | 3208 | [Alternating Groups II](#-alternating-groups-ii) | [➔](Solutions/3208.java) |
+| 9  | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](#-count-of-substrings-containing-every-vowel-and-consonants-ii) | [➔](Solutions/3306.java) |
 
 
 </br>
@@ -349,12 +350,51 @@ There are no alternating groups of size 4 in the circle.
 - `0 <= colors[i] <= 1`  
 - `3 <= k <= colors.length`  
 
-[📂 Solution](alternating_groups.java)  
+[📂 Solution](Solutions/3208.java)  
 
 [⬆️ Go to top](#top)  
 
 ---
 
+### ✅ Count of Substrings Containing Every Vowel and K Consonants II  
+**Difficulty:** 🟠 Medium
+
+**Problem Statement:**  
+You are given a string `word` and a non-negative integer `k`.  
+Return the total number of substrings of `word` that contain every vowel ('a', 'e', 'i', 'o', and 'u') at least once and exactly `k` consonants.
+
+**Example 1:**  
+**Input:** word = "aeioqq", k = 1  
+**Output:** 0  
+**Explanation:** There is no substring with every vowel.
+
+**Example 2:**  
+**Input:** word = "aeiou", k = 0  
+**Output:** 1  
+**Explanation:** The only substring with every vowel and zero consonants is word[0..4], which is "aeiou".
+
+**Example 3:**  
+**Input:** word = "ieaouqqieaouqq", k = 1  
+**Output:** 3  
+**Explanation:** The substrings with every vowel and one consonant are:  
+- word[0..5], which is "ieaouq".  
+- word[6..11], which is "qieaou".  
+- word[7..12], which is "ieaouq".  
+
+**Constraints:**  
+- 5 <= word.length <= 2 * 10^5  
+- word consists only of lowercase English letters.  
+- 0 <= k <= word.length - 5.  
+
+**Hints:**  
+1. We can use sliding window and binary search.  
+2. For each index `r`, find the maximum `l` such that both conditions are satisfied using binary search.
+
+[📂 Solution](Solutions/3306.java)
+
+[⬆️ Go to top](#top)
+
+---
 
 
 
