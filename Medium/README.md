@@ -23,7 +23,7 @@ Modify and test with your own input.
 | 6  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
 | 7  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
 | 8  | 3208 | [Alternating Groups II](#-alternating-groups-ii) | [➔](Solutions/3208.java) |
-| 9  | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](#-count-of-substrings-containing-every-vowel-and-consonants-ii) | [➔](Solutions/3306.java) |
+| 9  | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](#-count-of-substrings-containing-every-vowel-and-k-consonants-ii) | [➔](Solutions/3306.java) |
 
 
 </br>
