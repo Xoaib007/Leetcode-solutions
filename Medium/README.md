@@ -18,6 +18,7 @@ Modify and test with your own input.
 | 1  | 43 | [Multiply Strings](#-multiply-strings) | [➔](Solutions/0043.java) |
 | 2  | 73 | [Set Matrix Zeroes](#-set-matrix-zeroes) | [➔](Solutions/0073.java) |
 | 3  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
+| 3  | 1358 | [Number of Substrings Containing All Three Characters](#-number-of-substrings-containing-all-three-characters) | [➔](Solutions/1358.java) |
 | 4  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
 | 5  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
 | 6  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
@@ -97,6 +98,43 @@ The robot executes the given instructions repeatedly. Return `true` if the robot
 [⬆️ Go to top](#top)  
 
 ---
+
+### ✅ Number of Substrings Containing All Three Characters  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+Given a string `s` consisting only of characters `'a'`, `'b'`, and `'c'`, return the number of substrings containing at least one occurrence of all these characters.  
+
+**Example 1:**  
+**Input:** s = "abcabc"  
+**Output:** 10  
+**Explanation:** The substrings containing at least one occurrence of `'a'`, `'b'`, and `'c'` are:  
+- "abc", "abca", "abcab", "abcabc", "bca", "bcab", "bcabc", "cab", "cabc", and "abc" (again).  
+
+**Example 2:**  
+**Input:** s = "aaacb"  
+**Output:** 3  
+**Explanation:** The substrings containing at least one occurrence of `'a'`, `'b'`, and `'c'` are:  
+- "aaacb", "aacb", and "acb".  
+
+**Example 3:**  
+**Input:** s = "abc"  
+**Output:** 1  
+
+**Constraints:**  
+- 3 <= s.length <= 5 × 10⁴  
+- `s` consists only of `'a'`, `'b'`, or `'c'`.  
+
+**Hints:**  
+1. For each position, find the first occurrence of `'a'`, `'b'`, and `'c'` on or after this position.  
+2. Precompute three linked lists of indices for each `'a'`, `'b'`, and `'c'`.  
+
+[📂 Solution](Solutions/1358.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 ### ✅ Set Matrix Zeroes  
 **Difficulty:** 🟠 Medium  
 
