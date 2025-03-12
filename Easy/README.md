@@ -27,7 +27,7 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 12 | 67 | [Add Binary](#-add-binary)  | [➔](Solutions/0067.java) | ✔ |
 | 13 | 69 | [Sqrt(x)](#-sqrtx)  | [➔](Solutions/0069.java) | ✔ |
 | 14 | 70 | [Climbing Stairs](#-climbing-stairs)  | [➔](Solutions/0070.java) | ✔ |
-| 15 | 121 | [Best Time to Buy and Sell Stock](#-best-time-to-buy-and-sell-stock)  | [➔](Solutions/0121.java) |  |
+| 15 | 121 | [Best Time to Buy and Sell Stock](#-best-time-to-buy-and-sell-stock)  | [➔](Solutions/0121.java) | ✔ |
 | 16 | 242 | [Valid Anagram](#-valid-anagram)  | [➔](Solutions/0242.java) | ✔ |
 | 17 | 283 | [Move Zeroes](#-move-zeroes)  | [➔](Solutions/0283.java) | ✔ |
 | 18 | 383 | [Ransom Note](#-ransom-note)  | [➔](Solutions/0383.java) | ✔ |
@@ -555,6 +555,39 @@ Explanation: There are three ways to climb to the top:
 2. This forms a **Fibonacci sequence** where `f(n) = f(n-1) + f(n-2)`, with base cases `f(1) = 1`, `f(2) = 2`.  
 
 [📂 Solution](Solutions/0070.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Best Time to Buy and Sell Stock  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+You are given an array `prices` where `prices[i]` is the price of a given stock on the `i`th day.  
+
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.  
+
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return `0`.  
+
+**Example 1:**  
+**Input:** prices = [7,1,5,3,6,4]  
+**Output:** 5  
+**Explanation:**  
+- Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6 - 1 = 5.  
+- Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.  
+
+**Example 2:**  
+**Input:** prices = [7,6,4,3,1]  
+**Output:** 0  
+**Explanation:**  
+- In this case, no transactions are done and the max profit = 0.  
+
+**Constraints:**  
+- 1 <= prices.length <= 10⁵  
+- 0 <= prices[i] <= 10⁴  
+
+[📂 Solution](Solutions/0121.java)  
 
 [⬆️ Go to top](#top)  
 
