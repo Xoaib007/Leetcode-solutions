@@ -27,33 +27,38 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 12 | 67 | [Add Binary](#-add-binary)  | [➔](Solutions/0067.java) | ✔ |
 | 13 | 69 | [Sqrt(x)](#-sqrtx)  | [➔](Solutions/0069.java) | ✔ |
 | 14 | 70 | [Climbing Stairs](#-climbing-stairs)  | [➔](Solutions/0070.java) | ✔ |
-| 15 | 242 | [Valid Anagram](#-valid-anagram)  | [➔](Solutions/0242.java) | ✔ |
-| 16 | 283 | [Move Zeroes](#-move-zeroes)  | [➔](Solutions/0283.java) | ✔ |
-| 17 | 383 | [Ransom Note](#-ransom-note)  | [➔](Solutions/0383.java) | ✔ |
-| 18 | 389 | [Find the Difference](#-find-the-difference)  | [➔](Solutions/0389.java) | ✔ |
-| 19 | 412 | [Fizz Buzz](#-fizz-buzz)  | [➔](Solutions/0412.java) | ✔ |
-| 20 | 459 | [Repeated Substring Pattern](#-repeated-substring-pattern)  | [➔](Solutions/0459.java) | ✔ |
-| 21 | 509 | [Fibonacci Number](#-fibonacci-number)  | [➔](Solutions/0509.java) | ✔ |
-| 22 | 657 | [Robot Return to Origin](#-robot-return-to-origin)  | [➔](Solutions/0657.java) | ✔ |
-| 23 | 682 | [Baseball Game](#-baseball-game)  | [➔](Solutions/0682.java) | ✔ |
-| 24 | 709 | [To Lower Case](#-to-lower-case)  | [➔](Solutions/0709.java) | ✔ |
-| 25 | 860 | [Lemonade Change](#-lemonade-change)  | [➔](Solutions/0860.java) | ✔ |
-| 26 | 896 | [Monotonic Array](#-monotonic-array)  | [➔](Solutions/0896.java) | ✔ |
-| 27 | 976 | [Largest Perimeter Triangle](#-largest-perimeter-triangle)  | [➔](Solutions/0976.java) |  |
-| 28 | 1232 | [Check If It Is a Straight Line](#-check-if-it-is-a-straight-line)  | [➔](Solutions/1232.java) |  |
-| 29 | 1275 | [Find Winner on a Tic Tac Toe Game](#-find-winner-on-a-tic-tac-toe-game)  | [➔](Solutions/1275.java) |  |
-| 30 | 1342 | [Number of Steps to Reduce a Number to Zero](#-number-of-steps-to-reduce-a-number-to-zero)  | [➔](Solutions/1342.java) |  |
-| 31 | 1480 | [Running Sum of 1d Array](#-running-sum-of-1d-array)  | [➔](Solutions/1480.java) |  |
-| 32 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](#-average-salary-excluding-the-minimum-and-maximum-salary)  | [➔](Solutions/1491.java) |  |
-| 33 | 1502 | [Can Make Arithmetic Progression From Sequence](#-can-make-arithmetic-progression-from-sequence)  | [➔](Solutions/1502.java) |  |
-| 34 | 1523 | [Count Odd Numbers in an Interval Range](#-count-odd-numbers-in-an-interval-range)  | [➔](Solutions/1523.java) |  |
-| 35 | 1572 | [Matrix Diagonal Sum](#-matrix-diagonal-sum)  | [➔](Solutions/1572.java) |  |
-| 36 | 1672 | [Richest Customer Wealth](#-richest-customer-wealth)  | [➔](Solutions/1672.java) |  |
-| 37 | 1768 | [Merge Strings Alternately](#-merge-strings-alternately)  | [➔](Solutions/1768.java) |  |
-| 38 | 1822 | [Sign of the Product of an Array](#-sign-of-the-product-of-an-array)  | [➔](Solutions/1822.java) |  |
-| 39 | 2965 | [Find Missing and Repeated Values](#-find-missing-and-repeated-values)  | [➔](Solutions/2965.java) |  |
-| 40 | 3467 | [Transform Array by Parity](#-transform-array-by-parity)  | [➔](Solutions/3467.java) |  |
-
+| 15 | 121 | [Best Time to Buy and Sell Stock](#-best-time-to-buy-and-sell-stock)  | [➔](Solutions/0121.java) |  |
+| 16 | 242 | [Valid Anagram](#-valid-anagram)  | [➔](Solutions/0242.java) | ✔ |
+| 17 | 283 | [Move Zeroes](#-move-zeroes)  | [➔](Solutions/0283.java) | ✔ |
+| 18 | 383 | [Ransom Note](#-ransom-note)  | [➔](Solutions/0383.java) | ✔ |
+| 19 | 389 | [Find the Difference](#-find-the-difference)  | [➔](Solutions/0389.java) | ✔ |
+| 20 | 412 | [Fizz Buzz](#-fizz-buzz)  | [➔](Solutions/0412.java) | ✔ |
+| 21 | 459 | [Repeated Substring Pattern](#-repeated-substring-pattern)  | [➔](Solutions/0459.java) | ✔ |
+| 22 | 509 | [Fibonacci Number](#-fibonacci-number)  | [➔](Solutions/0509.java) | ✔ |
+| 23 | 657 | [Robot Return to Origin](#-robot-return-to-origin)  | [➔](Solutions/0657.java) | ✔ |
+| 24 | 682 | [Baseball Game](#-baseball-game)  | [➔](Solutions/0682.java) | ✔ |
+| 25 | 709 | [To Lower Case](#-to-lower-case)  | [➔](Solutions/0709.java) | ✔ |
+| 26 | 860 | [Lemonade Change](#-lemonade-change)  | [➔](Solutions/0860.java) | ✔ |
+| 27 | 896 | [Monotonic Array](#-monotonic-array)  | [➔](Solutions/0896.java) | ✔ |
+| 28 | 976 | [Largest Perimeter Triangle](#-largest-perimeter-triangle)  | [➔](Solutions/0976.java) |  |
+| 29 | 1137 | [N-th Tribonacci Number](#-n-th-tribonacci-number)  | [➔](Solutions/1137.java) |  |
+| 30 | 1232 | [Check If It Is a Straight Line](#-check-if-it-is-a-straight-line)  | [➔](Solutions/1232.java) |  |
+| 31 | 1275 | [Find Winner on a Tic Tac Toe Game](#-find-winner-on-a-tic-tac-toe-game)  | [➔](Solutions/1275.java) |  |
+| 32 | 1342 | [Number of Steps to Reduce a Number to Zero](#-number-of-steps-to-reduce-a-number-to-zero)  | [➔](Solutions/1342.java) |  |
+| 33 | 1475 | [Final Prices With a Special Discount in a Shop](#-final-prices-with-a-special-discount-in-a-shop)  | [➔](Solutions/1475.java) |  |
+| 34 | 1480 | [Running Sum of 1d Array](#-running-sum-of-1d-array)  | [➔](Solutions/1480.java) |  |
+| 35 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](#-average-salary-excluding-the-minimum-and-maximum-salary)  | [➔](Solutions/1491.java) |  |
+| 36 | 1502 | [Can Make Arithmetic Progression From Sequence](#-can-make-arithmetic-progression-from-sequence)  | [➔](Solutions/1502.java) |  |
+| 37 | 1523 | [Count Odd Numbers in an Interval Range](#-count-odd-numbers-in-an-interval-range)  | [➔](Solutions/1523.java) |  |
+| 38 | 1572 | [Matrix Diagonal Sum](#-matrix-diagonal-sum)  | [➔](Solutions/1572.java) |  |
+| 39 | 1672 | [Richest Customer Wealth](#-richest-customer-wealth)  | [➔](Solutions/1672.java) |  |
+| 40 | 1768 | [Merge Strings Alternately](#-merge-strings-alternately)  | [➔](Solutions/1768.java) |  |
+| 41 | 1822 | [Sign of the Product of an Array](#-sign-of-the-product-of-an-array)  | [➔](Solutions/1822.java) |  |
+| 42 | 2379 | [Minimum Recolors to Get K Consecutive Black Blocks](#-minimum-recolors-to-get-k-consecutive-black-blocks)  | [➔](Solutions/2379.java) |  |
+| 43 | 2529 | [Maximum Count of Positive Integer and Negative Integer](#-maximum-count-of-positive-integer-and-negative-integer)  | [➔](Solutions/2529.java) |  |
+| 44 | 2558 | [Take Gifts From the Richest Pile](#-take-gifts-from-the-richest-pile)  | [➔](Solutions/2558.java) |  |
+| 45 | 2965 | [Find Missing and Repeated Values](#-find-missing-and-repeated-values)  | [➔](Solutions/2965.java) |  |
+| 46 | 3467 | [Transform Array by Parity](#-transform-array-by-parity)  | [➔](Solutions/3467.java) |  |
 
 ## 📝 Problem Descriptions
 
