@@ -3,7 +3,7 @@
 This repository contains my solutions to LeetCode problems, organized by difficulty level. Each solution is stored in its respective folder with a corresponding README file for easy navigation.
 
 <a href="https://leetcode.com/Sh041B/">
-    <img src="https://leetcard.jacoblin.cool/Sh041B?theme=transparent&font=Red%20Hat%20Mono&ext=heatmap&animation=true" alt="LeetCode Stats">
+    <img src="https://leetcard.jacoblin.cool/Sh041B?theme=dark&font=Red%20Hat%20Mono&ext=heatmap&animation=true" alt="LeetCode Stats">
 </a>
 
 ## 📂 Folder Structure
