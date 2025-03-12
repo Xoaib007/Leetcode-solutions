@@ -893,7 +893,7 @@ Total sum: 0
 3. For `"D"`, access the last element of the stack.  
 4. For `"C"`, remove the last element of the stack.  
 
-[📂 Solution](baseball_game.java)  
+[📂 Solution](Solutions/0682.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -925,7 +925,7 @@ Output: `"lovely"`
 2. Think about the **ASCII values** of uppercase and lowercase letters.  
 3. There is a **mathematical relationship** between uppercase (`A-Z`) and lowercase (`a-z`) letters.  
 
-[📂 Solution](to_lower_case.java)  
+[📂 Solution](Solutions/0709.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -963,7 +963,7 @@ Explanation:
 - `1 <= bills.length <= 10^5`  
 - `bills[i]` is either `5`, `10`, or `20`.  
 
-[📂 Solution](lemonade_change.java)  
+[📂 Solution](Solutions/0860.java)  
 
 [⬆️ Go to top](#top)  
 
@@ -995,7 +995,7 @@ Output: `false`
 - `1 <= nums.length <= 10^5`  
 - `-10^5 <= nums[i] <= 10^5`  
 
-[📂 Solution](monotonic_array.java)  
+[📂 Solution](Solutions/0896.java)  
 
 [⬆️ Go to top](#top)  
 
