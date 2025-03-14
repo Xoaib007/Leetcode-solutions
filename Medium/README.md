@@ -134,7 +134,7 @@ You must write an algorithm that runs in **O(n)** time and **without using the d
 1. Use **prefix** and **suffix** products to calculate the result efficiently in **O(n)** time.  
 2. Try reusing memory or modifying the input array to store intermediate results to minimize additional space usage.  
 
-[📂 Solution](0238.java)  
+[📂 Solution](Solutions/0238.java)  
 
 [⬆️ Go to top](#top)  
 
