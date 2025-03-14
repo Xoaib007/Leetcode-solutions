@@ -27,3 +27,15 @@ class Solution {
         return ans; // Return the final result
     }
 }
+
+/*************
+     // Single pass to compute both prefix and suffix product
+        for (int i = 0; i < n; i++) {
+            ans[i] = prefix;    // Store prefix product
+            prefix *= nums[i];  // Update prefix for next iteration
+
+            int j = n - 1 - i;  // Mirrored index from the end
+            ans[j] *= suffix;   // Multiply with the suffix product
+            suffix *= nums[j];  // Update suffix for next iteration
+        }
+**************/
