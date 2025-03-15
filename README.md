@@ -6,6 +6,8 @@ This repository contains my solutions to LeetCode problems, organized by difficu
     <img src="https://leetcard.jacoblin.cool/Sh041B?theme=dark&font=Red%20Hat%20Mono&ext=heatmap&animation=true" alt="LeetCode Stats">
 </a>
 
+<!-- <img src="https://assets.leetcode.com/static_assets/others/LeetCode_75.gif" width="80" alt="Funny Cat"> -->
+
 ## 📂 Folder Structure
 
 ```
