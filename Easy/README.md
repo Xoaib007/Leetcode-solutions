@@ -30,7 +30,7 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 15 | 121 | [Best Time to Buy and Sell Stock](#-best-time-to-buy-and-sell-stock)  | [➔](Solutions/0121.java) | ✔ |
 | 16 | 242 | [Valid Anagram](#-valid-anagram)  | [➔](Solutions/0242.java) | ✔ |
 | 17 | 283 | [Move Zeroes](#-move-zeroes)  | [➔](Solutions/0283.java) | ✔ |
-| 18 | 345 | [Reverse Vowels of a String](#-reverse-vowels-of-a-string)  | [➔](Solutions/0345.java) |  |
+| 18 | 345 | [Reverse Vowels of a String](#-reverse-vowels-of-a-string)  | [➔](Solutions/0345.java) | ✔ |
 | 19 | 383 | [Ransom Note](#-ransom-note)  | [➔](Solutions/0383.java) | ✔ |
 | 20 | 389 | [Find the Difference](#-find-the-difference)  | [➔](Solutions/0389.java) | ✔ |
 | 21 | 392 | [Is Subsequence](#-is-subsequence)  | [➔](Solutions/0392.java) |  |
@@ -681,7 +681,7 @@ The vowels are `'a', 'e', 'i', 'o', 'u'` (both lowercase and uppercase).
 - 1 <= s.length <= 3 × 10⁵  
 - `s` consists of printable ASCII characters.  
 
-[📂 Solution](Splutions/0345.java)  
+[📂 Solution](Solutions/0345.java)  
 
 [⬆️ Go to top](#top)  
 
