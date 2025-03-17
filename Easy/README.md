@@ -37,8 +37,8 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 22 | 412 | [Fizz Buzz](#-fizz-buzz)  | [➔](Solutions/0412.java) | ✔ |
 | 23 | 459 | [Repeated Substring Pattern](#-repeated-substring-pattern)  | [➔](Solutions/0459.java) | ✔ |
 | 24 | 509 | [Fibonacci Number](#-fibonacci-number)  | [➔](Solutions/0509.java) | ✔ |
-| 25 | 605 | [Can Place Flowers](#-can-place-flowers)  | [➔](Solutions/0605.java) |  |
-| 26 | 643 | [Maximum Average Subarray I](#-maximum-average-subarray-i)  | [➔](Solutions/0643.java) |  |
+| 25 | 605 | [Can Place Flowers](#-can-place-flowers)  | [➔](Solutions/0605.java) | ✔ |
+| 26 | 643 | [Maximum Average Subarray I](#-maximum-average-subarray-i)  | [➔](Solutions/0643.java) | ✔ |
 | 27 | 657 | [Robot Return to Origin](#-robot-return-to-origin)  | [➔](Solutions/0657.java) | ✔ |
 | 28 | 682 | [Baseball Game](#-baseball-game)  | [➔](Solutions/0682.java) | ✔ |
 | 29 | 709 | [To Lower Case](#-to-lower-case)  | [➔](Solutions/0709.java) | ✔ |
@@ -944,7 +944,7 @@ Maximum average is **(12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75**
 - `1 <= k <= n <= 10⁵`  
 - `-10⁴ <= nums[i] <= 10⁴`  
 
-[📂 Solution](0643.java)  
+[📂 Solution](Solutions/0643.java)  
 
 [⬆️ Go to top](#top)  
 
