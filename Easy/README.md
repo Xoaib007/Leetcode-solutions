@@ -888,6 +888,68 @@ Explanation: `F(4) = F(3) + F(2) = 2 + 1 = 3`.
 
 ---
 
+### ✅ Can Place Flowers  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+You have a long **flowerbed** in which some of the plots are planted, and some are not. However, **flowers cannot be planted in adjacent plots**.  
+
+Given an integer array `flowerbed` containing **0's and 1's**:  
+- `0` means **empty**.  
+- `1` means **occupied**.  
+
+And an integer `n`, return `true` if `n` new flowers can be planted in the flowerbed **without violating the no-adjacent-flowers rule**, otherwise return `false`.  
+
+**Example 1:**  
+**Input:** flowerbed = [1,0,0,0,1], n = 1  
+**Output:** true  
+
+**Example 2:**  
+**Input:** flowerbed = [1,0,0,0,1], n = 2  
+**Output:** false  
+
+**Constraints:**  
+- 1 <= flowerbed.length <= 2 × 10⁴  
+- `flowerbed[i]` is `0` or `1`.  
+- There are **no two adjacent flowers** in `flowerbed`.  
+- 0 <= n <= flowerbed.length  
+
+[📂 Solution](Solutions/0605.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### ✅ Maximum Average Subarray I  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+You are given an integer array `nums` consisting of `n` elements, and an integer `k`.  
+
+Find a **contiguous subarray** of length **k** that has the **maximum average value** and return this value.  
+Any answer with a calculation error **less than 10⁻⁵** will be accepted.  
+
+**Example 1:**  
+**Input:** nums = [1,12,-5,-6,50,3], k = 4  
+**Output:** 12.75000  
+**Explanation:**  
+Maximum average is **(12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75**  
+
+**Example 2:**  
+**Input:** nums = [5], k = 1  
+**Output:** 5.00000  
+
+**Constraints:**  
+- `n == nums.length`  
+- `1 <= k <= n <= 10⁵`  
+- `-10⁴ <= nums[i] <= 10⁴`  
+
+[📂 Solution](0643.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 ### ✅ Robot Return to Origin  
 **Difficulty:** 🟢 Easy  
 
