@@ -42,7 +42,7 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 27 | 657 | [Robot Return to Origin](#-robot-return-to-origin)  | [➔](Solutions/0657.java) | ✔ |
 | 28 | 682 | [Baseball Game](#-baseball-game)  | [➔](Solutions/0682.java) | ✔ |
 | 29 | 709 | [To Lower Case](#-to-lower-case)  | [➔](Solutions/0709.java) | ✔ |
-| 30 | 724 | [Find Pivot Index](#-find-pivot-index)  | [➔](Solutions/0724.java) |  |
+| 30 | 724 | [Find Pivot Index](#-find-pivot-index)  | [➔](Solutions/0724.java) | ✔ |
 | 31 | 860 | [Lemonade Change](#-lemonade-change)  | [➔](Solutions/0860.java) | ✔ |
 | 32 | 896 | [Monotonic Array](#-monotonic-array)  | [➔](Solutions/0896.java) | ✔ |
 | 33 | 976 | [Largest Perimeter Triangle](#-largest-perimeter-triangle)  | [➔](Solutions/0976.java) |  |
@@ -1138,7 +1138,7 @@ The pivot index is `0`.
 2. Create an array `sumRight` where `sumRight[i]` is the sum of all numbers to the right of index `i`.  
 3. For each index `i`, check if `sumLeft[i] == sumRight[i]`. If true, return `i`. If no such index is found, return `-1`.  
 
-[📂 Solution](0724.java)  
+[📂 Solution](Solution/0724.java)  
 
 [⬆️ Go to top](#top)  
 
