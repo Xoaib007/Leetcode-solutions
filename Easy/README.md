@@ -1138,7 +1138,7 @@ The pivot index is `0`.
 2. Create an array `sumRight` where `sumRight[i]` is the sum of all numbers to the right of index `i`.  
 3. For each index `i`, check if `sumLeft[i] == sumRight[i]`. If true, return `i`. If no such index is found, return `-1`.  
 
-[📂 Solution](Solution/0724.java)  
+[📂 Solution](Solutions/0724.java)  
 
 [⬆️ Go to top](#top)  
 
