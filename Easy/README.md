@@ -1095,6 +1095,55 @@ Output: `"lovely"`
 
 ---
 
+### ✅ Find Pivot Index  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+Given an array of integers `nums`, calculate the **pivot index** of this array.  
+
+The **pivot index** is the index where the sum of all the numbers **strictly to the left** of the index is equal to the sum of all the numbers **strictly to the right** of the index.  
+
+- If the index is on the **left edge**, the left sum is **0** (no elements to the left).  
+- If the index is on the **right edge**, the right sum is **0** (no elements to the right).  
+- Return the **leftmost pivot index** if it exists; otherwise, return `-1`.  
+
+**Example 1:**  
+**Input:** nums = [1,7,3,6,5,6]  
+**Output:** 3  
+**Explanation:**  
+The pivot index is `3`.  
+- Left sum = `1 + 7 + 3 = 11`  
+- Right sum = `5 + 6 = 11`  
+
+**Example 2:**  
+**Input:** nums = [1,2,3]  
+**Output:** -1  
+**Explanation:**  
+There is no index that satisfies the conditions.  
+
+**Example 3:**  
+**Input:** nums = [2,1,-1]  
+**Output:** 0  
+**Explanation:**  
+The pivot index is `0`.  
+- Left sum = `0` (no elements to the left)  
+- Right sum = `1 + (-1) = 0`  
+
+**Constraints:**  
+- `1 <= nums.length <= 10⁴`  
+- `-1000 <= nums[i] <= 1000`  
+
+**Hints:**  
+1. Create an array `sumLeft` where `sumLeft[i]` is the sum of all numbers to the left of index `i`.  
+2. Create an array `sumRight` where `sumRight[i]` is the sum of all numbers to the right of index `i`.  
+3. For each index `i`, check if `sumLeft[i] == sumRight[i]`. If true, return `i`. If no such index is found, return `-1`.  
+
+[📂 Solution](0724.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 ### ✅ Lemonade Change  
 **Difficulty:** 🟢 Easy  
 
