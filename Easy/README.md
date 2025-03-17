@@ -681,7 +681,7 @@ The vowels are `'a', 'e', 'i', 'o', 'u'` (both lowercase and uppercase).
 - 1 <= s.length <= 3 × 10⁵  
 - `s` consists of printable ASCII characters.  
 
-[📂 Solution](0345.java)  
+[📂 Solution](Splutions/0345.java)  
 
 [⬆️ Go to top](#top)  
 
