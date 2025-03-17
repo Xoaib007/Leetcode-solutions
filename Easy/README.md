@@ -33,7 +33,7 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 18 | 345 | [Reverse Vowels of a String](#-reverse-vowels-of-a-string)  | [➔](Solutions/0345.java) | ✔ |
 | 19 | 383 | [Ransom Note](#-ransom-note)  | [➔](Solutions/0383.java) | ✔ |
 | 20 | 389 | [Find the Difference](#-find-the-difference)  | [➔](Solutions/0389.java) | ✔ |
-| 21 | 392 | [Is Subsequence](#-is-subsequence)  | [➔](Solutions/0392.java) |  |
+| 21 | 392 | [Is Subsequence](#-is-subsequence)  | [➔](Solutions/0392.java) | ✔ |
 | 22 | 412 | [Fizz Buzz](#-fizz-buzz)  | [➔](Solutions/0412.java) | ✔ |
 | 23 | 459 | [Repeated Substring Pattern](#-repeated-substring-pattern)  | [➔](Solutions/0459.java) | ✔ |
 | 24 | 509 | [Fibonacci Number](#-fibonacci-number)  | [➔](Solutions/0509.java) | ✔ |
