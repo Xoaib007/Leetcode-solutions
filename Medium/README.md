@@ -34,6 +34,54 @@ Modify and test with your own input.
 
 </br>
 
+### 🔶 Container With Most Water  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the `i`th line are `(i, 0)` and `(i, height[i])`.  
+
+Find two lines that, together with the x-axis, form a container that can store the most water.  
+
+Return the maximum amount of water a container can store.  
+
+**Note:** You may not slant the container.  
+
+**Example:**  
+
+**Input:**  
+`height = [1,8,6,2,5,4,8,3,7]`  
+**Output:**  
+`49`  
+
+</br><img src="https://github.com/user-attachments/assets/e9345a29-f959-4e52-9356-6fb1c3e05cd9" alt="drawing" width="400" align='center'/></br>
+
+**Explanation:**  
+The above vertical lines are represented by the array `[1,8,6,2,5,4,8,3,7]`. The maximum area of water the container can contain is `49`.  
+
+**Input:**  
+`height = [1,1]`  
+**Output:**  
+`1`  
+
+**Constraints:**  
+- `n == height.length`  
+- `2 <= n <= 10^5`  
+- `0 <= height[i] <= 10^4`  
+
+**Hints:**  
+1. A brute force approach (checking all pairs) would take `O(n^2)`, which is inefficient.  
+2. Use the **two-pointer** technique: Start with one pointer at the left end and one at the right end of the array. Always move the pointer pointing to the shorter line.  
+3. The area at each step is calculated as:  
+   \[
+   \text{area} = \min(\text{height}[left], \text{height}[right]) \times (\text{right} - \text{left})
+   \]  
+
+[📂 Solution](Solutions/0011.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 ## 📝 Problem Descriptions
 
 ### ✅ Multiply Strings  
