@@ -1214,6 +1214,34 @@ Output: `false`
 
 ---
 
+### ✅ Largest Perimeter Triangle  
+**Difficulty:** 🟢 Easy  
+
+**Problem Statement:**  
+Given an integer array `nums`, return the **largest perimeter** of a triangle with a **non-zero area**, formed from three of these lengths.  
+If it is **impossible** to form any triangle with a non-zero area, return `0`.  
+
+**Example 1:**  
+**Input:** nums = [2,1,2]  
+**Output:** 5  
+**Explanation:**  
+You can form a triangle with three side lengths: `1, 2, and 2`.  
+
+**Example 2:**  
+**Input:** nums = [1,2,1,10]  
+**Output:** 0  
+**Explanation:**  
+It is not possible to form a valid triangle with any three side lengths.  
+
+**Constraints:**  
+- `3 <= nums.length <= 10⁴`  
+- `1 <= nums[i] <= 10⁶`  
+
+[📂 Solution](Solutions/0976.java)  
+
+[⬆️ Go to top](#top)  
+
+---
 
 
 
