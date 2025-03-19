@@ -45,9 +45,9 @@ This folder contains my solutions for **Easy** LeetCode problems. Each problem i
 | 30 | 724 | [Find Pivot Index](#-find-pivot-index)  | [➔](Solutions/0724.java) | ✔ |
 | 31 | 860 | [Lemonade Change](#-lemonade-change)  | [➔](Solutions/0860.java) | ✔ |
 | 32 | 896 | [Monotonic Array](#-monotonic-array)  | [➔](Solutions/0896.java) | ✔ |
-| 33 | 976 | [Largest Perimeter Triangle](#-largest-perimeter-triangle)  | [➔](Solutions/0976.java) |  |
-| 34 | 1137 | [N-th Tribonacci Number](#-n-th-tribonacci-number)  | [➔](Solutions/1137.java) |  |
-| 35 | 1207 | [Unique Number of Occurrences](#-unique-number-of-occurrences)  | [➔](Solutions/1207.java) |  |
+| 33 | 976 | [Largest Perimeter Triangle](#-largest-perimeter-triangle)  | [➔](Solutions/0976.java) | ✔ |
+| 34 | 1137 | [N-th Tribonacci Number](#-n-th-tribonacci-number)  | [➔](Solutions/1137.java) | ✔ |
+| 35 | 1207 | [Unique Number of Occurrences](#-unique-number-of-occurrences)  | [➔](Solutions/1207.java) | ✔ |
 | 36 | 1232 | [Check If It Is a Straight Line](#-check-if-it-is-a-straight-line)  | [➔](Solutions/1232.java) |  |
 | 37 | 1275 | [Find Winner on a Tic Tac Toe Game](#-find-winner-on-a-tic-tac-toe-game)  | [➔](Solutions/1275.java) |  |
 | 38 | 1342 | [Number of Steps to Reduce a Number to Zero](#-number-of-steps-to-reduce-a-number-to-zero)  | [➔](Solutions/1342.java) |  |
