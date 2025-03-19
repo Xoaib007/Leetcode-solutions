@@ -23,6 +23,7 @@ Modify and test with your own input.
 | 5  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
 | 6  | 1358 | [Number of Substrings Containing All Three Characters](#-number-of-substrings-containing-all-three-characters) | [➔](Solutions/1358.java) |
 | 7  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
+| 7  | 1679 | [Max Number of K-Sum Pairs](#-max-number-of-k-sum-pairs) | [➔](Solutions/1679.java) |
 | 8  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
 | 9  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
 | 10  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
@@ -281,6 +282,53 @@ Output: `false`
 2. A number cannot be represented as a sum of distinct powers of `3` if its ternary representation contains a `2`.  
 
 [📂 Solution](Solutions/1780.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### 🔶 Max Number of K-Sum Pairs  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+You are given an integer array `nums` and an integer `k`.  
+
+In one operation, you can pick two numbers from the array whose sum equals `k` and remove them from the array.  
+
+Return the maximum number of operations you can perform on the array.  
+
+**Example:**  
+
+**Input:**  
+`nums = [1,2,3,4]`, `k = 5`  
+**Output:**  
+`2`  
+**Explanation:**  
+Starting with `nums = [1,2,3,4]`:  
+- Remove numbers `1` and `4`, then `nums = [2,3]`  
+- Remove numbers `2` and `3`, then `nums = []`  
+There are no more pairs that sum up to `5`, hence a total of `2` operations.  
+
+**Input:**  
+`nums = [3,1,3,4,3]`, `k = 6`  
+**Output:**  
+`1`  
+**Explanation:**  
+Starting with `nums = [3,1,3,4,3]`:  
+- Remove the first two `3`s, then `nums = [1,4,3]`  
+There are no more pairs that sum up to `6`, hence a total of `1` operation.  
+
+**Constraints:**  
+- `1 <= nums.length <= 10^5`  
+- `1 <= nums[i] <= 10^9`  
+- `1 <= k <= 10^9`  
+
+**Hints:**  
+1. The problem requires counting the number of disjoint pairs that sum up to `k`.  
+2. For each possible value `x`, it can be paired with `k - x`.  
+3. The number of such pairs equals `min(count(x), count(k-x))`, unless `x = k / 2`, where the number of such pairs will be `floor(count(x) / 2)`.  
+
+[📂 Solution](Solutions/1679.java)  
 
 [⬆️ Go to top](#top)  
 
