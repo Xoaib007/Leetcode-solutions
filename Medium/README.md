@@ -13,7 +13,6 @@ Modify and test with your own input.
 
 </br>
 
-
 |   | # | Problem | Solution |
 |---|---|---------|----------|
 | 1  | 11 | [Container With Most Water](#-container-with-most-water) | [➔](Solutions/0011.java) |
@@ -23,13 +22,14 @@ Modify and test with your own input.
 | 5  | 238 | [Product of Array Except Self](#-product-of-array-except-self) | [➔](Solutions/0238.java) |
 | 6  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
 | 7  | 1358 | [Number of Substrings Containing All Three Characters](#-number-of-substrings-containing-all-three-characters) | [➔](Solutions/1358.java) |
-| 8  | 1679 | [Max Number of K-Sum Pairs](#-max-number-of-k-sum-pairs) | [➔](Solutions/1679.java) |
-| 9  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
-| 10  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
-| 11  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
-| 12  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
-| 13  | 3208 | [Alternating Groups II](#-alternating-groups-ii) | [➔](Solutions/3208.java) |
-| 14  | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](#-count-of-substrings-containing-every-vowel-and-k-consonants-ii) | [➔](Solutions/3306.java) |
+| 8  | 1657 | [Determine if Two Strings Are Close](#-determine-if-two-strings-are-close) | [➔](Solutions/1657.java) |
+| 9  | 1679 | [Max Number of K-Sum Pairs](#-max-number-of-k-sum-pairs) | [➔](Solutions/1679.java) |
+| 10  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
+| 11  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
+| 12  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
+| 13  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
+| 14  | 3208 | [Alternating Groups II](#-alternating-groups-ii) | [➔](Solutions/3208.java) |
+| 15  | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](#-count-of-substrings-containing-every-vowel-and-k-consonants-ii) | [➔](Solutions/3306.java) |
 
 
 </br>
