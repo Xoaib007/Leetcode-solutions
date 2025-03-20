@@ -34,6 +34,9 @@ Modify and test with your own input.
 
 </br>
 
+
+## 📝 Problem Descriptions
+
 ### 🔶 Container With Most Water  
 **Difficulty:** 🟠 Medium  
 
@@ -81,8 +84,6 @@ The above vertical lines are represented by the array `[1,8,6,2,5,4,8,3,7]`. The
 [⬆️ Go to top](#top)  
 
 ---
-
-## 📝 Problem Descriptions
 
 ### ✅ Multiply Strings  
 **Difficulty:** 🟠 Medium  
@@ -262,6 +263,61 @@ Given a string `s` consisting only of characters `'a'`, `'b'`, and `'c'`, return
 2. Precompute three linked lists of indices for each `'a'`, `'b'`, and `'c'`.  
 
 [📂 Solution](Solutions/1358.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### 🔶 Determine if Two Strings Are Close  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+Two strings are considered **close** if you can attain one from the other using the following operations:  
+
+- **Operation 1:** Swap any two existing characters.  
+  - Example: `"abcde"` → `"aecdb"`  
+- **Operation 2:** Transform every occurrence of one existing character into another existing character, and do the same with the other character.  
+  - Example: `"aacabb"` → `"bbcbaa"` (all `'a'`s turn into `'b'`, and all `'b'`s turn into `'a'`)  
+
+You can use the operations on either string as many times as necessary.  
+
+Given two strings `word1` and `word2`, return `true` if they are **close**, or `false` otherwise.  
+
+**Example:**  
+
+**Input:**  
+`word1 = "abc"`, `word2 = "bca"`  
+**Output:**  
+`true`  
+**Explanation:**  
+- Apply **Operation 1**: `"abc"` → `"acb"`  
+- Apply **Operation 1**: `"acb"` → `"bca"`  
+
+**Input:**  
+`word1 = "a"`, `word2 = "aa"`  
+**Output:**  
+`false`  
+**Explanation:**  
+- It is impossible to attain `"aa"` from `"a"`, or vice versa, in any number of operations.  
+
+**Input:**  
+`word1 = "cabbba"`, `word2 = "abbccc"`  
+**Output:**  
+`true`  
+**Explanation:**  
+- Apply **Operation 1**: `"cabbba"` → `"caabbb"`  
+- Apply **Operation 2**: `"caabbb"` → `"baaccc"`  
+- Apply **Operation 2**: `"baaccc"` → `"abbccc"`  
+
+**Constraints:**  
+- `1 <= word1.length, word2.length <= 10^5`  
+- `word1` and `word2` contain only lowercase English letters.  
+
+**Hints:**  
+1. **Operation 1** allows you to freely reorder the string.  
+2. **Operation 2** allows you to freely reassign letter frequencies.  
+
+[📂 Solution](Solutions/1657.java)  
 
 [⬆️ Go to top](#top)  
 
