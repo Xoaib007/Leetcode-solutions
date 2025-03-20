@@ -26,10 +26,11 @@ Modify and test with your own input.
 | 9  | 1679 | [Max Number of K-Sum Pairs](#-max-number-of-k-sum-pairs) | [➔](Solutions/1679.java) |
 | 10  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
 | 11  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
-| 12  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
-| 13  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
-| 14  | 3208 | [Alternating Groups II](#-alternating-groups-ii) | [➔](Solutions/3208.java) |
-| 15  | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](#-count-of-substrings-containing-every-vowel-and-k-consonants-ii) | [➔](Solutions/3306.java) |
+| 12  | 2352 | [Equal Row and Column Pairs](#-equal-row-and-column-pairs) | [➔](Solutions/2352.java) |
+| 13  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
+| 14  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
+| 15  | 3208 | [Alternating Groups II](#-alternating-groups-ii) | [➔](Solutions/3208.java) |
+| 16  | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](#-count-of-substrings-containing-every-vowel-and-k-consonants-ii) | [➔](Solutions/3306.java) |
 
 
 </br>
@@ -479,6 +480,56 @@ Explanation:
 2. Once you have the separate lists, can you concatenate them to get the final result?  
 
 [📂 Solution](Solutions/2161.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
+### 🔶 Equal Row and Column Pairs  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+Given a `0`-indexed `n x n` integer matrix `grid`, return the number of pairs `(rᵢ, cⱼ)` such that row `rᵢ` and column `cⱼ` are **equal**.  
+
+A row and column pair is considered **equal** if they contain the same elements in the same order (i.e., an identical array).  
+
+**Example:**  
+
+**Input:**  
+`grid = [[3,2,1],[1,7,6],[2,7,7]]`  
+**Output:**  
+`1`  
+
+</br><img src="https://github.com/user-attachments/assets/153abf90-336c-46a4-9fb2-fead375f1e5b" alt="drawing" width="400" align='center'/></br>
+
+**Explanation:**  
+There is **1** equal row and column pair:  
+- `(Row 2, Column 1)`: `[2,7,7]`  
+
+**Input:**  
+`grid = [[3,1,2,2],[1,4,4,5],[2,4,2,2],[2,4,2,2]]`  
+**Output:**  
+`3`  
+
+</br><img src="https://github.com/user-attachments/assets/5acec47a-40eb-45f9-8a25-932c494c8c7e" alt="drawing" width="400" align='center'/></br>
+
+**Explanation:**  
+There are **3** equal row and column pairs:  
+- `(Row 0, Column 0)`: `[3,1,2,2]`  
+- `(Row 2, Column 2)`: `[2,4,2,2]`  
+- `(Row 3, Column 2)`: `[2,4,2,2]`  
+
+**Constraints:**  
+- `n == grid.length == grid[i].length`  
+- `1 <= n <= 200`  
+- `1 <= grid[i][j] <= 10^5`  
+
+**Hints:**  
+1. Use nested loops to compare every row against every column.  
+2. Another loop is necessary to compare the row and column **element by element**.  
+3. A more efficient approach is to **hash the arrays** and compare their hashed values.  
+
+[📂 Solution](Solutions/2352.java)  
 
 [⬆️ Go to top](#top)  
 
