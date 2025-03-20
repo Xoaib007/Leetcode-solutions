@@ -500,18 +500,21 @@ A row and column pair is considered **equal** if they contain the same elements 
 **Output:**  
 `1`  
 
-</br><img src="https://github.com/user-attachments/assets/153abf90-336c-46a4-9fb2-fead375f1e5b" alt="drawing" width="400" align='center'/></br>
+</br><img src="https://github.com/user-attachments/assets/153abf90-336c-46a4-9fb2-fead375f1e5b" alt="drawing" width="200" align='center'/></br>
 
 **Explanation:**  
 There is **1** equal row and column pair:  
 - `(Row 2, Column 1)`: `[2,7,7]`  
 
+
+</br>
+
 **Input:**  
 `grid = [[3,1,2,2],[1,4,4,5],[2,4,2,2],[2,4,2,2]]`  
 **Output:**  
-`3`  
+`3`
 
-</br><img src="https://github.com/user-attachments/assets/5acec47a-40eb-45f9-8a25-932c494c8c7e" alt="drawing" width="400" align='center'/></br>
+</br><img src="https://github.com/user-attachments/assets/5acec47a-40eb-45f9-8a25-932c494c8c7e" alt="drawing" width="200" align='center'/></br>
 
 **Explanation:**  
 There are **3** equal row and column pairs:  
