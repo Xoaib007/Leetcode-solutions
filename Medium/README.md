@@ -19,6 +19,7 @@ Modify and test with your own input.
 | 2  | 43 | [Multiply Strings](#-multiply-strings) | [➔](Solutions/0043.java) |
 | 3  | 73 | [Set Matrix Zeroes](#-set-matrix-zeroes) | [➔](Solutions/0073.java) |
 | 4  | 151 | [Reverse Words in a String](#-reverse-words-in-a-string) | [➔](Solutions/0151.java) |
+| 4  | 162 | [Find Peak Element(#-find-peak-element) | [➔](Solutions/0162.java) |
 | 5  | 238 | [Product of Array Except Self](#-product-of-array-except-self) | [➔](Solutions/0238.java) |
 | 6  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
 | 7  | 1358 | [Number of Substrings Containing All Three Characters](#-number-of-substrings-containing-all-three-characters) | [➔](Solutions/1358.java) |
