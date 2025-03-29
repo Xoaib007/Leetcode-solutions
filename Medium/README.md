@@ -20,19 +20,20 @@ Modify and test with your own input.
 | 3  | 73 | [Set Matrix Zeroes](#-set-matrix-zeroes) | [➔](Solutions/0073.java) |
 | 4  | 151 | [Reverse Words in a String](#-reverse-words-in-a-string) | [➔](Solutions/0151.java) |
 | 5  | 162 | [Find Peak Element](#-find-peak-element) | [➔](Solutions/0162.java) |
-| 6  | 238 | [Product of Array Except Self](#-product-of-array-except-self) | [➔](Solutions/0238.java) |
-| 7  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
-| 8  | 1358 | [Number of Substrings Containing All Three Characters](#-number-of-substrings-containing-all-three-characters) | [➔](Solutions/1358.java) |
-| 9  | 1657 | [Determine if Two Strings Are Close](#-determine-if-two-strings-are-close) | [➔](Solutions/1657.java) |
-| 10  | 1679 | [Max Number of K-Sum Pairs](#-max-number-of-k-sum-pairs) | [➔](Solutions/1679.java) |
-| 11  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
-| 12  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
-| 13  | 2300 | [Successful Pairs of Spells and Potions](#-successful-pairs-of-spells-and-potions) | [➔](Solutions/2300.java) |
-| 14  | 2352 | [Equal Row and Column Pairs](#-equal-row-and-column-pairs) | [➔](Solutions/2352.java) |
-| 15  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
-| 16  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
-| 17  | 3208 | [Alternating Groups II](#-alternating-groups-ii) | [➔](Solutions/3208.java) |
-| 18  | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](#-count-of-substrings-containing-every-vowel-and-k-consonants-ii) | [➔](Solutions/3306.java) |
+| 6  | 198 | [House Robber](#-house-robber) | [➔](Solutions/0198.java) |
+| 7  | 238 | [Product of Array Except Self](#-product-of-array-except-self) | [➔](Solutions/0238.java) |
+| 8  | 1041 | [Robot Bounded In Circle](#-robot-bounded-in-circle) | [➔](Solutions/1041.java) |
+| 9  | 1358 | [Number of Substrings Containing All Three Characters](#-number-of-substrings-containing-all-three-characters) | [➔](Solutions/1358.java) |
+| 10  | 1657 | [Determine if Two Strings Are Close](#-determine-if-two-strings-are-close) | [➔](Solutions/1657.java) |
+| 11  | 1679 | [Max Number of K-Sum Pairs](#-max-number-of-k-sum-pairs) | [➔](Solutions/1679.java) |
+| 12  | 1780 | [Check if Number is a Sum of Powers of Three](#-check-if-number-is-a-sum-of-powers-of-three) | [➔](Solutions/1780.java) |
+| 13  | 2161 | [Partition Array According to Given Pivot](#-partition-array-according-to-given-pivot) | [➔](Solutions/2161.java) |
+| 14  | 2300 | [Successful Pairs of Spells and Potions](#-successful-pairs-of-spells-and-potions) | [➔](Solutions/2300.java) |
+| 15  | 2352 | [Equal Row and Column Pairs](#-equal-row-and-column-pairs) | [➔](Solutions/2352.java) |
+| 16  | 2523 | [Closest Prime Numbers in Range](#-closest-prime-numbers-in-range) | [➔](Solutions/2523.java) |
+| 17  | 2579 | [Count Total Number of Colored Cells](#-count-total-number-of-colored-cells) | [➔](Solutions/2579.java) |
+| 18  | 3208 | [Alternating Groups II](#-alternating-groups-ii) | [➔](Solutions/3208.java) |
+| 19  | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](#-count-of-substrings-containing-every-vowel-and-k-consonants-ii) | [➔](Solutions/3306.java) |
 
 
 </br>
