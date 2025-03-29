@@ -205,6 +205,47 @@ Your function can return **either** index `1` (peak element `2`) or index `5` (p
 
 ---
 
+### 🔶 House Robber  
+**Difficulty:** 🟠 Medium  
+
+**Problem Statement:**  
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, but **you cannot rob two adjacent houses**, as their security systems are connected and will alert the police.  
+
+Given an integer array `nums` representing the amount of money in each house, return the **maximum amount** of money you can rob **without alerting the police**.  
+
+**Example:**  
+
+**Input:**  
+`nums = [1,2,3,1]`  
+**Output:**  
+`4`  
+**Explanation:**  
+Rob house `1` (`money = 1`) and then rob house `3` (`money = 3`).  
+Total amount you can rob = `1 + 3 = 4`.  
+
+**Input:**  
+`nums = [2,7,9,3,1]`  
+**Output:**  
+`12`  
+**Explanation:**  
+Rob house `1` (`money = 2`), rob house `3` (`money = 9`), and rob house `5` (`money = 1`).  
+Total amount you can rob = `2 + 9 + 1 = 12`.  
+
+**Constraints:**  
+- `1 <= nums.length <= 100`  
+- `0 <= nums[i] <= 400`  
+
+**Hints:**  
+1. Use **dynamic programming** to track the maximum money robbed up to each house.  
+2. At each house `i`, decide whether to **rob it** (and add its value to `i-2`'s max) or **skip it** (taking `i-1`'s max).  
+3. Use **bottom-up DP** to optimize space complexity.  
+
+[📂 Solution](Solutions/0198.java)  
+
+[⬆️ Go to top](#top)  
+
+---
+
 ### ✅ Product of Array Except Self  
 **Difficulty:** 🟠 Medium  
 
